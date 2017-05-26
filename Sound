@@ -1,0 +1,27 @@
+mport UIKit
+import AVFoundation
+
+class ViewController: UIViewController {
+    
+    let bathroom = AVPlayer(url: Bundle.main.url(forResource: "CCC", withExtension: "m4a")!)
+    
+    let music = AVPlayer(url: Bundle.main.url(forResource: "BBB", withExtension: "mp3")!)
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    @IBAction func Beep(_ sender: Any) {
+        bathroom.play()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    @IBAction func music(_ sender: Any) {
+        music.play()
+    }
+
+
+}
