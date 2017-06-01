@@ -95,6 +95,13 @@
                                     <segue destination="jo2-gL-GO4" kind="show" id="Slw-Qd-HeW"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TTO Title" translatesAutoresizingMaskIntoConstraints="NO" id="7Ly-im-2Nm">
+                                <rect key="frame" x="35" y="119" width="250" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="8Bg-ba-rIs"/>
+                                    <constraint firstAttribute="width" constant="250" id="WAX-Es-AyF"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -103,7 +110,9 @@
                             <constraint firstItem="kaE-gJ-9aT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="MDC-ec-W9W"/>
                             <constraint firstItem="7GB-GO-aKg" firstAttribute="top" secondItem="iUb-sF-fCc" secondAttribute="bottom" constant="18" id="Neu-TT-JEh"/>
                             <constraint firstItem="7GB-GO-aKg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Oeh-rO-YZP"/>
+                            <constraint firstItem="7Ly-im-2Nm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cBX-xk-Ioc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kaE-gJ-9aT" secondAttribute="trailing" constant="10" id="cOp-6g-Ram"/>
+                            <constraint firstItem="7Ly-im-2Nm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="dpd-LC-JY9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4MC-CG-KZC" secondAttribute="trailing" constant="10" id="iab-AU-Knm"/>
                             <constraint firstItem="4MC-CG-KZC" firstAttribute="top" secondItem="kaE-gJ-9aT" secondAttribute="bottom" constant="18" id="zHx-eD-2wy"/>
                         </constraints>
@@ -516,16 +525,50 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bibim" translatesAutoresizingMaskIntoConstraints="NO" id="VSX-c1-R3m">
+                                <rect key="frame" x="85" y="104" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Gyr-21-tNH"/>
+                                    <constraint firstAttribute="width" constant="150" id="H9o-CZ-A76"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bibim Rice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxJ-tc-zyw">
+                                <rect key="frame" x="60" y="74" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8wA-Uw-z9d"/>
+                                    <constraint firstAttribute="width" constant="200" id="zC6-Yj-IJ1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IsI-k6-iXR">
+                                <rect key="frame" x="25" y="269" width="270" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Gag-jL-i8z"/>
+                                    <constraint firstAttribute="width" constant="270" id="gdQ-ou-sMi"/>
+                                </constraints>
+                                <string key="text">This Korean traditional food, known as Bibimbap. Is healthy and easy to cook.   This food contains :  eggs, seasoned vegetables, hot pepper paste and rice.   Sliced meat is also added sometimes. Ingredients must be stirred. When this food is finished stirring, it'll be served.  This food can be served either hot or cold.</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="IsI-k6-iXR" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="0SS-P8-1Tn"/>
                             <constraint firstItem="9Ia-ua-LBQ" firstAttribute="top" secondItem="QC5-F7-Cdv" secondAttribute="bottom" id="Bb0-Cr-ahi"/>
+                            <constraint firstItem="VSX-c1-R3m" firstAttribute="top" secondItem="nxJ-tc-zyw" secondAttribute="bottom" id="Kqd-3y-CLh"/>
                             <constraint firstItem="Fw4-Kd-iXQ" firstAttribute="top" secondItem="9Ia-ua-LBQ" secondAttribute="bottom" constant="20" id="NiX-Aa-o4C"/>
                             <constraint firstItem="zRr-6q-Oes" firstAttribute="top" secondItem="Fw4-Kd-iXQ" secondAttribute="bottom" constant="30" id="OBd-YZ-nto"/>
-                            <constraint firstItem="QC5-F7-Cdv" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="exk-yG-LLb"/>
-                            <constraint firstItem="Fw4-Kd-iXQ" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="j1u-M3-Kbp"/>
+                            <constraint firstItem="9Ia-ua-LBQ" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="QO9-If-rhu"/>
+                            <constraint firstItem="IsI-k6-iXR" firstAttribute="top" secondItem="VSX-c1-R3m" secondAttribute="bottom" constant="15" id="SGZ-Bd-BtT"/>
+                            <constraint firstItem="nxJ-tc-zyw" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="Zkz-YD-kGy"/>
+                            <constraint firstItem="QC5-F7-Cdv" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="gL7-2q-zZT"/>
+                            <constraint firstItem="VSX-c1-R3m" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="hu7-OT-i5C"/>
+                            <constraint firstItem="Fw4-Kd-iXQ" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="sCk-Xg-xTS"/>
                             <constraint firstItem="9Ia-ua-LBQ" firstAttribute="top" secondItem="QC5-F7-Cdv" secondAttribute="bottom" id="xCe-af-3Rs"/>
-                            <constraint firstItem="9Ia-ua-LBQ" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="y0O-86-kNW"/>
+                            <constraint firstItem="nxJ-tc-zyw" firstAttribute="top" secondItem="4Vh-NJ-y9z" secondAttribute="bottom" constant="10" id="z1Y-je-vK7"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -536,7 +579,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Thh-DA-cxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2334" y="579"/>
+            <point key="canvasLocation" x="2355" y="351"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ANB-73-RFY">
@@ -1029,7 +1072,9 @@
         <image name="Food" width="960" height="722"/>
         <image name="GUIDE" width="750" height="496"/>
         <image name="JTES" width="487" height="313"/>
+        <image name="TTO Title" width="608" height="72"/>
         <image name="Tran" width="452" height="452"/>
+        <image name="bibim" width="250" height="245"/>
         <image name="내염ㄴ" width="200" height="168"/>
         <image name="비빔" width="250" height="245"/>
     </resources>
