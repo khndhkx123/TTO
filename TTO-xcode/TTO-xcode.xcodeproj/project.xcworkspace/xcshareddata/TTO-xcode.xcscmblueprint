@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D4F3DBAAA747D1278BFF9E8FE380899FB2B059EF" : 9223372036854775807,
+    "AB7FDA407F60CC71F952DE33FC2C6385AEC9A198" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ECCC5DDB-A26F-4FAC-8953-C51B2882758A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D4F3DBAAA747D1278BFF9E8FE380899FB2B059EF" : "..",
+    "AB7FDA407F60CC71F952DE33FC2C6385AEC9A198" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TTO-xcode",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TTO-xcode.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ProjectInTheClass\/TTO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB7FDA407F60CC71F952DE33FC2C6385AEC9A198"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ProjectInTheClass\/TTO.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D4F3DBAAA747D1278BFF9E8FE380899FB2B059EF"
+    }
+  ]
+}
