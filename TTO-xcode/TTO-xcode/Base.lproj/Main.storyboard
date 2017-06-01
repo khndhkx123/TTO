@@ -375,7 +375,7 @@
         <!--View Controller-->
         <scene sceneID="ewa-8W-Qo0">
             <objects>
-                <viewController id="ywj-fb-OKf" sceneMemberID="viewController">
+                <viewController id="ywj-fb-OKf" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lB6-9a-EMf"/>
                         <viewControllerLayoutGuide type="bottom" id="iZD-02-vgG"/>
@@ -404,6 +404,9 @@
                                             <constraint firstAttribute="width" constant="30" id="HCJ-5J-zMj"/>
                                         </constraints>
                                         <state key="normal" title="🔉"/>
+                                        <connections>
+                                            <action selector="BathroomPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="jmo-NU-lGE"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="● Where is busstop ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcM-8q-hKz">
                                         <rect key="frame" x="20" y="35" width="200" height="30"/>
@@ -422,6 +425,9 @@
                                             <constraint firstAttribute="width" constant="30" id="vck-Az-uar"/>
                                         </constraints>
                                         <state key="normal" title="🔉"/>
+                                        <connections>
+                                            <action selector="BusstopPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="Blc-sX-GKM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -451,7 +457,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nyU-9Q-KS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2183" y="1150"/>
+            <point key="canvasLocation" x="2261" y="1101"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vCE-C7-3wN">
@@ -466,7 +472,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="99" translatesAutoresizingMaskIntoConstraints="NO" id="9Ia-ua-LBQ">
-                                <rect key="frame" x="113" y="439" width="94" height="29"/>
+                                <rect key="frame" x="113" y="459" width="94" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="ZZ3-Cg-Fk1"/>
                                     <constraint firstAttribute="height" constant="29" id="ayf-ot-lSH"/>
@@ -476,7 +482,7 @@
                                 </connections>
                             </stepper>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QC5-F7-Cdv">
-                                <rect key="frame" x="145" y="409" width="30" height="30"/>
+                                <rect key="frame" x="145" y="429" width="30" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="1gb-e8-nbN"/>
@@ -487,7 +493,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fw4-Kd-iXQ">
-                                <rect key="frame" x="120" y="488" width="80" height="30"/>
+                                <rect key="frame" x="120" y="508" width="80" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="81Y-2P-zoq"/>
@@ -503,7 +509,7 @@
                         <constraints>
                             <constraint firstItem="9Ia-ua-LBQ" firstAttribute="top" secondItem="QC5-F7-Cdv" secondAttribute="bottom" id="Bb0-Cr-ahi"/>
                             <constraint firstItem="Fw4-Kd-iXQ" firstAttribute="top" secondItem="9Ia-ua-LBQ" secondAttribute="bottom" constant="20" id="NiX-Aa-o4C"/>
-                            <constraint firstItem="zRr-6q-Oes" firstAttribute="top" secondItem="Fw4-Kd-iXQ" secondAttribute="bottom" constant="50" id="OBd-YZ-nto"/>
+                            <constraint firstItem="zRr-6q-Oes" firstAttribute="top" secondItem="Fw4-Kd-iXQ" secondAttribute="bottom" constant="30" id="OBd-YZ-nto"/>
                             <constraint firstItem="QC5-F7-Cdv" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="exk-yG-LLb"/>
                             <constraint firstItem="Fw4-Kd-iXQ" firstAttribute="centerX" secondItem="n2E-cc-puX" secondAttribute="centerX" id="j1u-M3-Kbp"/>
                             <constraint firstItem="9Ia-ua-LBQ" firstAttribute="top" secondItem="QC5-F7-Cdv" secondAttribute="bottom" id="xCe-af-3Rs"/>

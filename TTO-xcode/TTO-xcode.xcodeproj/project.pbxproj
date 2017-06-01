@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1337398A1EDFB2D3000B86D3 /* busstop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 133739881EDFB2CE000B86D3 /* busstop.m4a */; };
+		1337398B1EDFB2D3000B86D3 /* bathroom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 133739891EDFB2CE000B86D3 /* bathroom.m4a */; };
 		138046BF1ED8162F00B97168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138046BE1ED8162F00B97168 /* AppDelegate.swift */; };
 		138046C11ED8162F00B97168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138046C01ED8162F00B97168 /* ViewController.swift */; };
 		138046C41ED8162F00B97168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138046C21ED8162F00B97168 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		133739881EDFB2CE000B86D3 /* busstop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = busstop.m4a; sourceTree = "<group>"; };
+		133739891EDFB2CE000B86D3 /* bathroom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bathroom.m4a; sourceTree = "<group>"; };
 		138046BB1ED8162F00B97168 /* TTO-xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTO-xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138046BE1ED8162F00B97168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		138046C01ED8162F00B97168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +51,6 @@
 		138046DA1ED8163000B97168 /* TTO-xcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTO-xcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138046DE1ED8163000B97168 /* TTO_xcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTO_xcodeUITests.swift; sourceTree = "<group>"; };
 		138046E01ED8163000B97168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		138046EC1ED8262A00B97168 /* BBB.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BBB.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +105,10 @@
 				138046C01ED8162F00B97168 /* ViewController.swift */,
 				138046C21ED8162F00B97168 /* Main.storyboard */,
 				138046C51ED8162F00B97168 /* Assets.xcassets */,
-				138046EC1ED8262A00B97168 /* BBB.m4a */,
 				138046C71ED8163000B97168 /* LaunchScreen.storyboard */,
 				138046CA1ED8163000B97168 /* Info.plist */,
+				133739881EDFB2CE000B86D3 /* busstop.m4a */,
+				133739891EDFB2CE000B86D3 /* bathroom.m4a */,
 			);
 			path = "TTO-xcode";
 			sourceTree = "<group>";
@@ -234,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1337398A1EDFB2D3000B86D3 /* busstop.m4a in Resources */,
+				1337398B1EDFB2D3000B86D3 /* bathroom.m4a in Resources */,
 				138046C91ED8163000B97168 /* LaunchScreen.storyboard in Resources */,
 				138046C61ED8162F00B97168 /* Assets.xcassets in Resources */,
 				138046C41ED8162F00B97168 /* Main.storyboard in Resources */,
@@ -509,6 +515,7 @@
 				138046E51ED8163000B97168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138046E61ED8163000B97168 /* Build configuration list for PBXNativeTarget "TTO-xcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				138046E81ED8163000B97168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		138046E91ED8163000B97168 /* Build configuration list for PBXNativeTarget "TTO-xcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				138046EB1ED8163000B97168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

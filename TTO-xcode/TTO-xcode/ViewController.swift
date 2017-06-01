@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 ///////////////
+    
+    let bathroom = AVPlayer(url: Bundle.main.url(forResource: "bathroom", withExtension: "m4a")!)
+    let busstop = AVPlayer(url: Bundle.main.url(forResource: "busstop", withExtension: "m4a")!)
+    
     @IBOutlet weak var NumberCount: UITextField!
     
     @IBAction func FoodCount(_ sender: UIStepper) {
@@ -19,6 +24,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    @IBAction func BathroomPlay(_ sender: Any) {
+        bathroom.play()
+    }
+    @IBAction func BusstopPlay(_ sender: Any) {
+        busstop.play()
     }
 
     override func didReceiveMemoryWarning() {
