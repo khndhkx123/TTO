@@ -936,10 +936,10 @@
             </objects>
             <point key="canvasLocation" x="800.625" y="1577.1126760563379"/>
         </scene>
-        <!--View Controller-->
+        <!--MAPS-->
         <scene sceneID="JpB-mX-NsD">
             <objects>
-                <viewController id="Nba-7h-3fp" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Nba-7h-3fp" customClass="MAPS" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8HK-pG-c7c"/>
                         <viewControllerLayoutGuide type="bottom" id="R47-ur-e36"/>
@@ -989,32 +989,35 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maps" translatesAutoresizingMaskIntoConstraints="NO" id="TGl-jD-Xnt">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jvP-eg-qkX">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="YhO-N7-j9v"/>
-                                    <constraint firstAttribute="width" constant="270" id="pOd-Gm-xFw"/>
+                                    <constraint firstAttribute="width" constant="270" id="i2I-P9-IaE"/>
+                                    <constraint firstAttribute="height" constant="200" id="mbH-WS-WG6"/>
                                 </constraints>
-                            </imageView>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jvP-eg-qkX" firstAttribute="centerX" secondItem="9xi-CF-Jag" secondAttribute="centerX" id="2mO-WZ-6Co"/>
                             <constraint firstItem="Q1b-Rm-zZg" firstAttribute="top" secondItem="8HK-pG-c7c" secondAttribute="bottom" constant="10" id="AcQ-0d-dSl"/>
                             <constraint firstItem="Q1b-Rm-zZg" firstAttribute="centerX" secondItem="9xi-CF-Jag" secondAttribute="centerX" id="F7Z-qa-Oqn"/>
-                            <constraint firstItem="fXX-yt-k2I" firstAttribute="top" secondItem="TGl-jD-Xnt" secondAttribute="bottom" constant="20" id="a8g-2b-8i4"/>
+                            <constraint firstItem="fXX-yt-k2I" firstAttribute="top" secondItem="jvP-eg-qkX" secondAttribute="bottom" constant="20" id="PXl-Az-ovN"/>
                             <constraint firstItem="fXX-yt-k2I" firstAttribute="centerX" secondItem="9xi-CF-Jag" secondAttribute="centerX" id="bKs-e2-6PQ"/>
-                            <constraint firstItem="TGl-jD-Xnt" firstAttribute="centerX" secondItem="9xi-CF-Jag" secondAttribute="centerX" id="eMn-6Z-bID"/>
                             <constraint firstItem="WM4-ru-Txl" firstAttribute="top" secondItem="Q1b-Rm-zZg" secondAttribute="bottom" constant="5" id="ih3-xq-pqj"/>
-                            <constraint firstItem="TGl-jD-Xnt" firstAttribute="top" secondItem="WM4-ru-Txl" secondAttribute="bottom" constant="10" id="p9r-CX-065"/>
                             <constraint firstItem="WM4-ru-Txl" firstAttribute="centerX" secondItem="9xi-CF-Jag" secondAttribute="centerX" id="qka-ni-9EC"/>
+                            <constraint firstItem="jvP-eg-qkX" firstAttribute="top" secondItem="WM4-ru-Txl" secondAttribute="bottom" constant="10" id="t74-y7-duL"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="map" destination="jvP-eg-qkX" id="w1c-G5-t1e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jg-Xj-yOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1564" y="2077"/>
+            <point key="canvasLocation" x="1623.75" y="2153.8732394366198"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vCE-C7-3wN">
@@ -2335,6 +2338,5 @@ SPICY ALERT : ★★★☆☆</string>
         <image name="F.tobokki" width="260" height="260"/>
         <image name="T.cave" width="604" height="358"/>
         <image name="TTO Title" width="608" height="72"/>
-        <image name="maps" width="622" height="586"/>
     </resources>
 </document>

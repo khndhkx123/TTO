@@ -16,6 +16,7 @@
 		138046C91ED8163000B97168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138046C71ED8163000B97168 /* LaunchScreen.storyboard */; };
 		138046D41ED8163000B97168 /* TTO_xcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138046D31ED8163000B97168 /* TTO_xcodeTests.swift */; };
 		138046DF1ED8163000B97168 /* TTO_xcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138046DE1ED8163000B97168 /* TTO_xcodeUITests.swift */; };
+		13F3DD221EE15FE400C02D9A /* MAPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F3DD211EE15FE400C02D9A /* MAPS.swift */; };
 		C1E543741EE21C4600EBBD6C /* 냉면.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543421EE21C3200EBBD6C /* 냉면.m4a */; };
 		C1E543751EE21C4600EBBD6C /* 된장찌개.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543431EE21C3200EBBD6C /* 된장찌개.m4a */; };
 		C1E543761EE21C4600EBBD6C /* 돈까스.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543441EE21C3200EBBD6C /* 돈까스.m4a */; };
@@ -103,6 +104,7 @@
 		138046DA1ED8163000B97168 /* TTO-xcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTO-xcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138046DE1ED8163000B97168 /* TTO_xcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTO_xcodeUITests.swift; sourceTree = "<group>"; };
 		138046E01ED8163000B97168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F3DD211EE15FE400C02D9A /* MAPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS.swift; sourceTree = "<group>"; };
 		C1E543421EE21C3200EBBD6C /* 냉면.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "냉면.m4a"; sourceTree = "<group>"; };
 		C1E543431EE21C3200EBBD6C /* 된장찌개.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "된장찌개.m4a"; sourceTree = "<group>"; };
 		C1E543441EE21C3200EBBD6C /* 돈까스.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "돈까스.m4a"; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				138046BE1ED8162F00B97168 /* AppDelegate.swift */,
 				138046C01ED8162F00B97168 /* ViewController.swift */,
 				138046C21ED8162F00B97168 /* Main.storyboard */,
+				13F3DD211EE15FE400C02D9A /* MAPS.swift */,
 				C1E543AA1EE2341000EBBD6C /* SoundPlay.swift */,
 				138046C51ED8162F00B97168 /* Assets.xcassets */,
 				138046C71ED8163000B97168 /* LaunchScreen.storyboard */,
@@ -484,6 +487,7 @@
 			files = (
 				138046C11ED8162F00B97168 /* ViewController.swift in Sources */,
 				C1E543AB1EE2341000EBBD6C /* SoundPlay.swift in Sources */,
+				13F3DD221EE15FE400C02D9A /* MAPS.swift in Sources */,
 				138046BF1ED8162F00B97168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
