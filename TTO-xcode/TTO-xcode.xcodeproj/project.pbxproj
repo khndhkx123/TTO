@@ -16,6 +16,56 @@
 		138046C91ED8163000B97168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138046C71ED8163000B97168 /* LaunchScreen.storyboard */; };
 		138046D41ED8163000B97168 /* TTO_xcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138046D31ED8163000B97168 /* TTO_xcodeTests.swift */; };
 		138046DF1ED8163000B97168 /* TTO_xcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138046DE1ED8163000B97168 /* TTO_xcodeUITests.swift */; };
+		C1E543741EE21C4600EBBD6C /* 냉면.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543421EE21C3200EBBD6C /* 냉면.m4a */; };
+		C1E543751EE21C4600EBBD6C /* 된장찌개.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543431EE21C3200EBBD6C /* 된장찌개.m4a */; };
+		C1E543761EE21C4600EBBD6C /* 돈까스.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543441EE21C3200EBBD6C /* 돈까스.m4a */; };
+		C1E543771EE21C4600EBBD6C /* 떡.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543451EE21C3200EBBD6C /* 떡.m4a */; };
+		C1E543781EE21C4600EBBD6C /* 불고기.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543461EE21C3200EBBD6C /* 불고기.m4a */; };
+		C1E543791EE21C4600EBBD6C /* 비빔.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543471EE21C3200EBBD6C /* 비빔.m4a */; };
+		C1E5437A1EE21C4600EBBD6C /* 삼계탕.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543481EE21C3200EBBD6C /* 삼계탕.m4a */; };
+		C1E5437B1EE21C4600EBBD6C /* 순대.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543491EE21C3200EBBD6C /* 순대.m4a */; };
+		C1E5437C1EE21C4600EBBD6C /* 잡채.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E5434A1EE21C3200EBBD6C /* 잡채.m4a */; };
+		C1E5437D1EE21C4600EBBD6C /* 갈비탕.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E5434B1EE21C3200EBBD6C /* 갈비탕.m4a */; };
+		C1E5437E1EE21C4600EBBD6C /* 김밥.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E5434C1EE21C3200EBBD6C /* 김밥.m4a */; };
+		C1E5437F1EE21C4600EBBD6C /* 김치.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E5434D1EE21C3200EBBD6C /* 김치.m4a */; };
+		C1E543801EE21C4600EBBD6C /* 허브나라.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5434E1EE21C3200EBBD6C /* 허브나라.mp4 */; };
+		C1E543811EE21C4600EBBD6C /* 커피.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5434F1EE21C3200EBBD6C /* 커피.mp4 */; };
+		C1E543821EE21C4600EBBD6C /* 이효석.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543501EE21C3200EBBD6C /* 이효석.mp4 */; };
+		C1E543831EE21C4600EBBD6C /* 월정사.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543511EE21C3200EBBD6C /* 월정사.mp4 */; };
+		C1E543841EE21C4600EBBD6C /* 오대산.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543521EE21C3200EBBD6C /* 오대산.mp4 */; };
+		C1E543851EE21C4600EBBD6C /* 양떼.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543531EE21C3200EBBD6C /* 양떼.mp4 */; };
+		C1E543861EE21C4600EBBD6C /* 삼양.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543541EE21C3200EBBD6C /* 삼양.mp4 */; };
+		C1E543871EE21C4600EBBD6C /* 생태.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543551EE21C3200EBBD6C /* 생태.mp4 */; };
+		C1E543881EE21C4600EBBD6C /* 백룡.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543561EE21C3200EBBD6C /* 백룡.mp4 */; };
+		C1E543891EE21C4600EBBD6C /* 20.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543571EE21C3200EBBD6C /* 20.mp4 */; };
+		C1E5438A1EE21C4600EBBD6C /* 10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543581EE21C3200EBBD6C /* 10.mp4 */; };
+		C1E5438B1EE21C4600EBBD6C /* 일.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543591EE21C3200EBBD6C /* 일.mp4 */; };
+		C1E5438C1EE21C4600EBBD6C /* 한.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5435A1EE21C3200EBBD6C /* 한.mp4 */; };
+		C1E5438D1EE21C4600EBBD6C /* 칠.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5435B1EE21C3200EBBD6C /* 칠.mp4 */; };
+		C1E5438E1EE21C4600EBBD6C /* 팔.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5435C1EE21C3200EBBD6C /* 팔.mp4 */; };
+		C1E5438F1EE21C4600EBBD6C /* 이.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5435D1EE21C3200EBBD6C /* 이.mp4 */; };
+		C1E543901EE21C4600EBBD6C /* 일곱.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5435E1EE21C3200EBBD6C /* 일곱.mp4 */; };
+		C1E543911EE21C4600EBBD6C /* 육.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5435F1EE21C3200EBBD6C /* 육.mp4 */; };
+		C1E543921EE21C4600EBBD6C /* 오.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543601EE21C3200EBBD6C /* 오.mp4 */; };
+		C1E543931EE21C4600EBBD6C /* 여섯.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543611EE21C3200EBBD6C /* 여섯.mp4 */; };
+		C1E543941EE21C4600EBBD6C /* 여덟.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543621EE21C3200EBBD6C /* 여덟.mp4 */; };
+		C1E543951EE21C4600EBBD6C /* 아홉.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543631EE21C3200EBBD6C /* 아홉.mp4 */; };
+		C1E543961EE21C4600EBBD6C /* 세.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543641EE21C3200EBBD6C /* 세.mp4 */; };
+		C1E543971EE21C4600EBBD6C /* 삼.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543651EE21C3200EBBD6C /* 삼.mp4 */; };
+		C1E543981EE21C4600EBBD6C /* 사.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543661EE21C3200EBBD6C /* 사.mp4 */; };
+		C1E543991EE21C4600EBBD6C /* 두.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543671EE21C3200EBBD6C /* 두.mp4 */; };
+		C1E5439A1EE21C4600EBBD6C /* 다섯.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543681EE21C3200EBBD6C /* 다섯.mp4 */; };
+		C1E5439B1EE21C4600EBBD6C /* 네.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543691EE21C3200EBBD6C /* 네.mp4 */; };
+		C1E5439C1EE21C4600EBBD6C /* 구.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5436A1EE21C3200EBBD6C /* 구.mp4 */; };
+		C1E5439D1EE21C4600EBBD6C /* 90.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5436B1EE21C3200EBBD6C /* 90.mp4 */; };
+		C1E5439E1EE21C4600EBBD6C /* 80.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5436C1EE21C3200EBBD6C /* 80.mp4 */; };
+		C1E5439F1EE21C4600EBBD6C /* 70.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5436D1EE21C3200EBBD6C /* 70.mp4 */; };
+		C1E543A01EE21C4600EBBD6C /* 60.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5436E1EE21C3200EBBD6C /* 60.mp4 */; };
+		C1E543A11EE21C4600EBBD6C /* 50.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E5436F1EE21C3200EBBD6C /* 50.mp4 */; };
+		C1E543A21EE21C4600EBBD6C /* 40.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543701EE21C3200EBBD6C /* 40.mp4 */; };
+		C1E543A31EE21C4600EBBD6C /* 30.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543711EE21C3200EBBD6C /* 30.mp4 */; };
+		C1E543A41EE21C4600EBBD6C /* 개 주세요.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543721EE21C3200EBBD6C /* 개 주세요.mp4 */; };
+		C1E543A51EE21C4600EBBD6C /* 무이.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543731EE21C3200EBBD6C /* 무이.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +101,56 @@
 		138046DA1ED8163000B97168 /* TTO-xcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTO-xcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138046DE1ED8163000B97168 /* TTO_xcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTO_xcodeUITests.swift; sourceTree = "<group>"; };
 		138046E01ED8163000B97168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E543421EE21C3200EBBD6C /* 냉면.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "냉면.m4a"; sourceTree = "<group>"; };
+		C1E543431EE21C3200EBBD6C /* 된장찌개.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "된장찌개.m4a"; sourceTree = "<group>"; };
+		C1E543441EE21C3200EBBD6C /* 돈까스.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "돈까스.m4a"; sourceTree = "<group>"; };
+		C1E543451EE21C3200EBBD6C /* 떡.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "떡.m4a"; sourceTree = "<group>"; };
+		C1E543461EE21C3200EBBD6C /* 불고기.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "불고기.m4a"; sourceTree = "<group>"; };
+		C1E543471EE21C3200EBBD6C /* 비빔.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "비빔.m4a"; sourceTree = "<group>"; };
+		C1E543481EE21C3200EBBD6C /* 삼계탕.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "삼계탕.m4a"; sourceTree = "<group>"; };
+		C1E543491EE21C3200EBBD6C /* 순대.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "순대.m4a"; sourceTree = "<group>"; };
+		C1E5434A1EE21C3200EBBD6C /* 잡채.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "잡채.m4a"; sourceTree = "<group>"; };
+		C1E5434B1EE21C3200EBBD6C /* 갈비탕.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "갈비탕.m4a"; sourceTree = "<group>"; };
+		C1E5434C1EE21C3200EBBD6C /* 김밥.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "김밥.m4a"; sourceTree = "<group>"; };
+		C1E5434D1EE21C3200EBBD6C /* 김치.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "김치.m4a"; sourceTree = "<group>"; };
+		C1E5434E1EE21C3200EBBD6C /* 허브나라.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "허브나라.mp4"; sourceTree = "<group>"; };
+		C1E5434F1EE21C3200EBBD6C /* 커피.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "커피.mp4"; sourceTree = "<group>"; };
+		C1E543501EE21C3200EBBD6C /* 이효석.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이효석.mp4"; sourceTree = "<group>"; };
+		C1E543511EE21C3200EBBD6C /* 월정사.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "월정사.mp4"; sourceTree = "<group>"; };
+		C1E543521EE21C3200EBBD6C /* 오대산.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "오대산.mp4"; sourceTree = "<group>"; };
+		C1E543531EE21C3200EBBD6C /* 양떼.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "양떼.mp4"; sourceTree = "<group>"; };
+		C1E543541EE21C3200EBBD6C /* 삼양.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "삼양.mp4"; sourceTree = "<group>"; };
+		C1E543551EE21C3200EBBD6C /* 생태.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "생태.mp4"; sourceTree = "<group>"; };
+		C1E543561EE21C3200EBBD6C /* 백룡.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "백룡.mp4"; sourceTree = "<group>"; };
+		C1E543571EE21C3200EBBD6C /* 20.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20.mp4; sourceTree = "<group>"; };
+		C1E543581EE21C3200EBBD6C /* 10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.mp4; sourceTree = "<group>"; };
+		C1E543591EE21C3200EBBD6C /* 일.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "일.mp4"; sourceTree = "<group>"; };
+		C1E5435A1EE21C3200EBBD6C /* 한.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "한.mp4"; sourceTree = "<group>"; };
+		C1E5435B1EE21C3200EBBD6C /* 칠.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "칠.mp4"; sourceTree = "<group>"; };
+		C1E5435C1EE21C3200EBBD6C /* 팔.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "팔.mp4"; sourceTree = "<group>"; };
+		C1E5435D1EE21C3200EBBD6C /* 이.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이.mp4"; sourceTree = "<group>"; };
+		C1E5435E1EE21C3200EBBD6C /* 일곱.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "일곱.mp4"; sourceTree = "<group>"; };
+		C1E5435F1EE21C3200EBBD6C /* 육.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "육.mp4"; sourceTree = "<group>"; };
+		C1E543601EE21C3200EBBD6C /* 오.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "오.mp4"; sourceTree = "<group>"; };
+		C1E543611EE21C3200EBBD6C /* 여섯.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "여섯.mp4"; sourceTree = "<group>"; };
+		C1E543621EE21C3200EBBD6C /* 여덟.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "여덟.mp4"; sourceTree = "<group>"; };
+		C1E543631EE21C3200EBBD6C /* 아홉.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "아홉.mp4"; sourceTree = "<group>"; };
+		C1E543641EE21C3200EBBD6C /* 세.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "세.mp4"; sourceTree = "<group>"; };
+		C1E543651EE21C3200EBBD6C /* 삼.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "삼.mp4"; sourceTree = "<group>"; };
+		C1E543661EE21C3200EBBD6C /* 사.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "사.mp4"; sourceTree = "<group>"; };
+		C1E543671EE21C3200EBBD6C /* 두.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "두.mp4"; sourceTree = "<group>"; };
+		C1E543681EE21C3200EBBD6C /* 다섯.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "다섯.mp4"; sourceTree = "<group>"; };
+		C1E543691EE21C3200EBBD6C /* 네.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "네.mp4"; sourceTree = "<group>"; };
+		C1E5436A1EE21C3200EBBD6C /* 구.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "구.mp4"; sourceTree = "<group>"; };
+		C1E5436B1EE21C3200EBBD6C /* 90.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 90.mp4; sourceTree = "<group>"; };
+		C1E5436C1EE21C3200EBBD6C /* 80.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 80.mp4; sourceTree = "<group>"; };
+		C1E5436D1EE21C3200EBBD6C /* 70.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 70.mp4; sourceTree = "<group>"; };
+		C1E5436E1EE21C3200EBBD6C /* 60.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 60.mp4; sourceTree = "<group>"; };
+		C1E5436F1EE21C3200EBBD6C /* 50.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 50.mp4; sourceTree = "<group>"; };
+		C1E543701EE21C3200EBBD6C /* 40.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 40.mp4; sourceTree = "<group>"; };
+		C1E543711EE21C3200EBBD6C /* 30.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 30.mp4; sourceTree = "<group>"; };
+		C1E543721EE21C3200EBBD6C /* 개 주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "개 주세요.mp4"; sourceTree = "<group>"; };
+		C1E543731EE21C3200EBBD6C /* 무이.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "무이.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +207,7 @@
 				138046C51ED8162F00B97168 /* Assets.xcassets */,
 				138046C71ED8163000B97168 /* LaunchScreen.storyboard */,
 				138046CA1ED8163000B97168 /* Info.plist */,
-				133739881EDFB2CE000B86D3 /* busstop.m4a */,
-				133739891EDFB2CE000B86D3 /* bathroom.m4a */,
+				C1E543411EE21B6F00EBBD6C /* Sound */,
 			);
 			path = "TTO-xcode";
 			sourceTree = "<group>";
@@ -129,6 +228,65 @@
 				138046E01ED8163000B97168 /* Info.plist */,
 			);
 			path = "TTO-xcodeUITests";
+			sourceTree = "<group>";
+		};
+		C1E543411EE21B6F00EBBD6C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				C1E543421EE21C3200EBBD6C /* 냉면.m4a */,
+				C1E543431EE21C3200EBBD6C /* 된장찌개.m4a */,
+				C1E543441EE21C3200EBBD6C /* 돈까스.m4a */,
+				C1E543451EE21C3200EBBD6C /* 떡.m4a */,
+				C1E543461EE21C3200EBBD6C /* 불고기.m4a */,
+				C1E543471EE21C3200EBBD6C /* 비빔.m4a */,
+				C1E543481EE21C3200EBBD6C /* 삼계탕.m4a */,
+				C1E543491EE21C3200EBBD6C /* 순대.m4a */,
+				C1E5434A1EE21C3200EBBD6C /* 잡채.m4a */,
+				C1E5434B1EE21C3200EBBD6C /* 갈비탕.m4a */,
+				C1E5434C1EE21C3200EBBD6C /* 김밥.m4a */,
+				C1E5434D1EE21C3200EBBD6C /* 김치.m4a */,
+				C1E5434E1EE21C3200EBBD6C /* 허브나라.mp4 */,
+				C1E5434F1EE21C3200EBBD6C /* 커피.mp4 */,
+				C1E543501EE21C3200EBBD6C /* 이효석.mp4 */,
+				C1E543511EE21C3200EBBD6C /* 월정사.mp4 */,
+				C1E543521EE21C3200EBBD6C /* 오대산.mp4 */,
+				C1E543531EE21C3200EBBD6C /* 양떼.mp4 */,
+				C1E543541EE21C3200EBBD6C /* 삼양.mp4 */,
+				C1E543551EE21C3200EBBD6C /* 생태.mp4 */,
+				C1E543561EE21C3200EBBD6C /* 백룡.mp4 */,
+				C1E543571EE21C3200EBBD6C /* 20.mp4 */,
+				C1E543581EE21C3200EBBD6C /* 10.mp4 */,
+				C1E543591EE21C3200EBBD6C /* 일.mp4 */,
+				C1E5435A1EE21C3200EBBD6C /* 한.mp4 */,
+				C1E5435B1EE21C3200EBBD6C /* 칠.mp4 */,
+				C1E5435C1EE21C3200EBBD6C /* 팔.mp4 */,
+				C1E5435D1EE21C3200EBBD6C /* 이.mp4 */,
+				C1E5435E1EE21C3200EBBD6C /* 일곱.mp4 */,
+				C1E5435F1EE21C3200EBBD6C /* 육.mp4 */,
+				C1E543601EE21C3200EBBD6C /* 오.mp4 */,
+				C1E543611EE21C3200EBBD6C /* 여섯.mp4 */,
+				C1E543621EE21C3200EBBD6C /* 여덟.mp4 */,
+				C1E543631EE21C3200EBBD6C /* 아홉.mp4 */,
+				C1E543641EE21C3200EBBD6C /* 세.mp4 */,
+				C1E543651EE21C3200EBBD6C /* 삼.mp4 */,
+				C1E543661EE21C3200EBBD6C /* 사.mp4 */,
+				C1E543671EE21C3200EBBD6C /* 두.mp4 */,
+				C1E543681EE21C3200EBBD6C /* 다섯.mp4 */,
+				C1E543691EE21C3200EBBD6C /* 네.mp4 */,
+				C1E5436A1EE21C3200EBBD6C /* 구.mp4 */,
+				C1E5436B1EE21C3200EBBD6C /* 90.mp4 */,
+				C1E5436C1EE21C3200EBBD6C /* 80.mp4 */,
+				C1E5436D1EE21C3200EBBD6C /* 70.mp4 */,
+				C1E5436E1EE21C3200EBBD6C /* 60.mp4 */,
+				C1E5436F1EE21C3200EBBD6C /* 50.mp4 */,
+				C1E543701EE21C3200EBBD6C /* 40.mp4 */,
+				C1E543711EE21C3200EBBD6C /* 30.mp4 */,
+				C1E543721EE21C3200EBBD6C /* 개 주세요.mp4 */,
+				C1E543731EE21C3200EBBD6C /* 무이.mp4 */,
+				133739881EDFB2CE000B86D3 /* busstop.m4a */,
+				133739891EDFB2CE000B86D3 /* bathroom.m4a */,
+			);
+			name = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +396,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E543741EE21C4600EBBD6C /* 냉면.m4a in Resources */,
+				C1E543751EE21C4600EBBD6C /* 된장찌개.m4a in Resources */,
+				C1E543761EE21C4600EBBD6C /* 돈까스.m4a in Resources */,
+				C1E543771EE21C4600EBBD6C /* 떡.m4a in Resources */,
+				C1E543781EE21C4600EBBD6C /* 불고기.m4a in Resources */,
+				C1E543791EE21C4600EBBD6C /* 비빔.m4a in Resources */,
+				C1E5437A1EE21C4600EBBD6C /* 삼계탕.m4a in Resources */,
+				C1E5437B1EE21C4600EBBD6C /* 순대.m4a in Resources */,
+				C1E5437C1EE21C4600EBBD6C /* 잡채.m4a in Resources */,
+				C1E5437D1EE21C4600EBBD6C /* 갈비탕.m4a in Resources */,
+				C1E5437E1EE21C4600EBBD6C /* 김밥.m4a in Resources */,
+				C1E5437F1EE21C4600EBBD6C /* 김치.m4a in Resources */,
+				C1E543801EE21C4600EBBD6C /* 허브나라.mp4 in Resources */,
+				C1E543811EE21C4600EBBD6C /* 커피.mp4 in Resources */,
+				C1E543821EE21C4600EBBD6C /* 이효석.mp4 in Resources */,
+				C1E543831EE21C4600EBBD6C /* 월정사.mp4 in Resources */,
+				C1E543841EE21C4600EBBD6C /* 오대산.mp4 in Resources */,
+				C1E543851EE21C4600EBBD6C /* 양떼.mp4 in Resources */,
+				C1E543861EE21C4600EBBD6C /* 삼양.mp4 in Resources */,
+				C1E543871EE21C4600EBBD6C /* 생태.mp4 in Resources */,
+				C1E543881EE21C4600EBBD6C /* 백룡.mp4 in Resources */,
+				C1E543891EE21C4600EBBD6C /* 20.mp4 in Resources */,
+				C1E5438A1EE21C4600EBBD6C /* 10.mp4 in Resources */,
+				C1E5438B1EE21C4600EBBD6C /* 일.mp4 in Resources */,
+				C1E5438C1EE21C4600EBBD6C /* 한.mp4 in Resources */,
+				C1E5438D1EE21C4600EBBD6C /* 칠.mp4 in Resources */,
+				C1E5438E1EE21C4600EBBD6C /* 팔.mp4 in Resources */,
+				C1E5438F1EE21C4600EBBD6C /* 이.mp4 in Resources */,
+				C1E543901EE21C4600EBBD6C /* 일곱.mp4 in Resources */,
+				C1E543911EE21C4600EBBD6C /* 육.mp4 in Resources */,
+				C1E543921EE21C4600EBBD6C /* 오.mp4 in Resources */,
+				C1E543931EE21C4600EBBD6C /* 여섯.mp4 in Resources */,
+				C1E543941EE21C4600EBBD6C /* 여덟.mp4 in Resources */,
+				C1E543951EE21C4600EBBD6C /* 아홉.mp4 in Resources */,
+				C1E543961EE21C4600EBBD6C /* 세.mp4 in Resources */,
+				C1E543971EE21C4600EBBD6C /* 삼.mp4 in Resources */,
+				C1E543981EE21C4600EBBD6C /* 사.mp4 in Resources */,
+				C1E543991EE21C4600EBBD6C /* 두.mp4 in Resources */,
+				C1E5439A1EE21C4600EBBD6C /* 다섯.mp4 in Resources */,
+				C1E5439B1EE21C4600EBBD6C /* 네.mp4 in Resources */,
+				C1E5439C1EE21C4600EBBD6C /* 구.mp4 in Resources */,
+				C1E5439D1EE21C4600EBBD6C /* 90.mp4 in Resources */,
+				C1E5439E1EE21C4600EBBD6C /* 80.mp4 in Resources */,
+				C1E5439F1EE21C4600EBBD6C /* 70.mp4 in Resources */,
+				C1E543A01EE21C4600EBBD6C /* 60.mp4 in Resources */,
+				C1E543A11EE21C4600EBBD6C /* 50.mp4 in Resources */,
+				C1E543A21EE21C4600EBBD6C /* 40.mp4 in Resources */,
+				C1E543A31EE21C4600EBBD6C /* 30.mp4 in Resources */,
+				C1E543A41EE21C4600EBBD6C /* 개 주세요.mp4 in Resources */,
+				C1E543A51EE21C4600EBBD6C /* 무이.mp4 in Resources */,
 				1337398A1EDFB2D3000B86D3 /* busstop.m4a in Resources */,
 				1337398B1EDFB2D3000B86D3 /* bathroom.m4a in Resources */,
 				138046C91ED8163000B97168 /* LaunchScreen.storyboard in Resources */,
@@ -423,6 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TTO-xcode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kkw.TTO-xcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +644,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TTO-xcode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kkw.TTO-xcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";

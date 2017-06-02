@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -637,6 +637,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ORDER:" destination="bVv-Dm-Nau" eventType="touchUpInside" id="KTg-J5-h0O"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.bibim" highlightedImage="F.bibim" translatesAutoresizingMaskIntoConstraints="NO" id="VSX-c1-R3m">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -662,7 +665,7 @@
                                     <constraint firstAttribute="height" constant="150" id="Gag-jL-i8z"/>
                                     <constraint firstAttribute="width" constant="270" id="gdQ-ou-sMi"/>
                                 </constraints>
-                                <mutableString key="text">This Korean traditional food, known as Bibimbap. Is healthy and easy to cook.   This food contains :  eggs, seasoned vegetables, hot pepper paste and rice.   Sliced meat is also added sometimes. Ingredients must be stirred. When this food is finished stirring, it'll be served.  This food can be served either hot or cold.  SPICY ALERT : ★★☆☆☆</mutableString>
+                                <string key="text">This Korean traditional food, known as Bibimbap. Is healthy and easy to cook.   This food contains :  eggs, seasoned vegetables, hot pepper paste and rice.   Sliced meat is also added sometimes. Ingredients must be stirred. When this food is finished stirring, it'll be served.  This food can be served either hot or cold.  SPICY ALERT : ★★☆☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1185,7 +1188,6 @@
         <!--View Controller-->
         <scene sceneID="IKT-Rs-OKq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7cj-9Y-CPv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="B1M-Pu-i0j" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qCH-Kk-zTe"/>
@@ -1258,7 +1260,7 @@
                                     <constraint firstAttribute="width" constant="270" id="U1f-lb-GkH"/>
                                     <constraint firstAttribute="height" constant="150" id="es1-xD-W3l"/>
                                 </constraints>
-                                <mutableString key="text">Buckwheat Noodles, known as Naengmyun, is especially delicious on summer. Because of the character of buckwheat, this noodle is hard to cut it off. This soup is made of Japanese Anchovy. After cooking the soup, buckwheat noodle, boiled egg, beef, raddish and cucumber are added.  SPICY ALERT : ☆☆☆☆☆</mutableString>
+                                <string key="text">Buckwheat Noodles, known as Naengmyun, is especially delicious on summer. Because of the character of buckwheat, this noodle is hard to cut it off. This soup is made of Japanese Anchovy. After cooking the soup, buckwheat noodle, boiled egg, beef, raddish and cucumber are added.  SPICY ALERT : ☆☆☆☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1286,13 +1288,13 @@
                         <outlet property="NumberCount" destination="wLA-Kz-fg7" id="V0F-bC-zPY"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7cj-9Y-CPv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2966" y="-82"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UeX-Gl-sWz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vnS-d2-OUN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="zZV-qm-FH2" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jdt-Ar-hdl"/>
@@ -1365,7 +1367,7 @@
                                     <constraint firstAttribute="height" constant="150" id="DsX-rB-BTc"/>
                                     <constraint firstAttribute="width" constant="270" id="c9d-N4-28A"/>
                                 </constraints>
-                                <mutableString key="text">This pork cutlet is mostly famous in Japan. But Korean version also has merits. This food is simple to cook, and has great taste. Pork is covered with frying powder and fried for more than 5 minutes. Then cutlet sauce is added on the top of the food. Pickled raddish, rice, kimchi and some salad are served as well.  SPICY ALERT : ☆☆☆☆☆</mutableString>
+                                <string key="text">This pork cutlet is mostly famous in Japan. But Korean version also has merits. This food is simple to cook, and has great taste. Pork is covered with frying powder and fried for more than 5 minutes. Then cutlet sauce is added on the top of the food. Pickled raddish, rice, kimchi and some salad are served as well.  SPICY ALERT : ☆☆☆☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1393,13 +1395,13 @@
                         <outlet property="NumberCount" destination="PR3-e5-7vK" id="IdZ-oX-4nx"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vnS-d2-OUN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3596" y="-82"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gcN-zi-4nn">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lon-Gy-sqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Jrf-84-qGR" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Umh-5G-XIp"/>
@@ -1472,7 +1474,8 @@
                                     <constraint firstAttribute="height" constant="150" id="g8c-1e-RRc"/>
                                     <constraint firstAttribute="width" constant="270" id="m1z-ZU-mbb"/>
                                 </constraints>
-                                <string key="text">Bul-gogi’s main recipe is beef. Main sauce is made of garlic, onion, apple and soy sauce. Beef, sauce and other vegetables are added to the pan and fried together. SPICY ALERT : ☆☆☆☆☆ </string>
+                                <string key="text">Bul-gogi’s main recipe is beef. Main sauce is made of garlic, onion, apple and soy sauce. Beef, sauce and other vegetables are added to the pan and fried together. 
+SPICY ALERT : ☆☆☆☆☆ </string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1500,13 +1503,13 @@
                         <outlet property="NumberCount" destination="R3b-ng-E7f" id="5ga-HR-hDf"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lon-Gy-sqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2333" y="123"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXx-zb-21l">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EFU-se-KcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="u67-uR-PRI" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ygt-On-1uP"/>
@@ -1579,7 +1582,9 @@
                                     <constraint firstAttribute="width" constant="270" id="QNf-rO-kFM"/>
                                     <constraint firstAttribute="height" constant="150" id="etw-gb-Oig"/>
                                 </constraints>
-                                <mutableString key="text">Dried Seaweed Rolls, known as Kimbap, is very convenient to eat. This Kimbap is made of dried seaweed, cucumber, pork, carrot, crabby, pickled raddish and rice. Some of the ingredients might be added or removed depending on the cook. All of the ingredients are rolled together by Seaweed, and cut. SPICY ALERT : ☆☆☆☆☆</mutableString>
+                                <string key="text">Dried Seaweed Rolls, known as Kimbap, is very convenient to eat. This Kimbap is made of dried seaweed, cucumber, pork, carrot, crabby, pickled raddish and rice. Some of the ingredients might be added or removed depending on the cook. All of the ingredients are rolled together by Seaweed, and cut.
+ 
+SPICY ALERT : ☆☆☆☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1607,13 +1612,13 @@
                         <outlet property="NumberCount" destination="h0r-f5-Isx" id="cLb-AU-fbl"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EFU-se-KcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2964" y="123"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uED-gB-X5U">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Eeh-pE-8tN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="wdG-FM-JUJ" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bdo-cR-BUn"/>
@@ -1686,7 +1691,9 @@
                                     <constraint firstAttribute="height" constant="150" id="6RO-HV-baE"/>
                                     <constraint firstAttribute="width" constant="270" id="hzX-d3-5CD"/>
                                 </constraints>
-                                <mutableString key="text">Soybean Paste Stew, known as Dwenjang jjigae, is also a Korean traditional food. There are some restaruants which serves this food as main course, however, mostly this food is a side dish. This stew is made of soybean, hot pepper, tofu and Japanese Anchovy. This food can be boiled a lot or just in normal. SPICY ALERT : ★★☆☆☆</mutableString>
+                                <string key="text">Soybean Paste Stew, known as Dwenjang jjigae, is also a Korean traditional food. There are some restaruants which serves this food as main course, however, mostly this food is a side dish. This stew is made of soybean, hot pepper, tofu and Japanese Anchovy. This food can be boiled a lot or just in normal.
+ 
+SPICY ALERT : ★★☆☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1714,13 +1721,13 @@
                         <outlet property="NumberCount" destination="8IZ-GV-OQF" id="zeY-Pe-pNg"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eeh-pE-8tN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3594" y="123"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dC2-cs-YdG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hti-gW-d1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="RSZ-mX-1AI" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="74C-nP-oyN"/>
@@ -1793,7 +1800,9 @@
                                     <constraint firstAttribute="height" constant="150" id="MYH-Jt-tRz"/>
                                     <constraint firstAttribute="width" constant="270" id="Q8E-ve-by9"/>
                                 </constraints>
-                                <mutableString key="text">Short rib soup, known as Kalbi-tang, is a food especially delicious on Winter. This food makes stomach keep warm and full. Beef, raddish and garlic are added to earthen pot and boiled together. After boiling is finished, pepper and sesame oil are added. Usually, when this food is ordered, one bowl of rice comes together. SPICY ALERT : ☆☆☆☆☆</mutableString>
+                                <string key="text">Short rib soup, known as Kalbi-tang, is a food especially delicious on Winter. This food makes stomach keep warm and full. Beef, raddish and garlic are added to earthen pot and boiled together. After boiling is finished, pepper and sesame oil are added. Usually, when this food is ordered, one bowl of rice comes together.
+ 
+SPICY ALERT : ☆☆☆☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1821,13 +1830,13 @@
                         <outlet property="NumberCount" destination="wlS-j5-KVH" id="Qxd-g2-cYs"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hti-gW-d1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2333" y="452"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fMk-B6-xue">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9jb-ob-bSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="lG6-LT-wko" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x9d-zl-SNo"/>
@@ -1900,7 +1909,9 @@
                                     <constraint firstAttribute="height" constant="150" id="Ck6-Xs-YDK"/>
                                     <constraint firstAttribute="width" constant="270" id="etI-qF-M41"/>
                                 </constraints>
-                                <mutableString key="text">Ginseng Chicken, known as Samgyetang, is one of the most famous health food in Korea. First, chicken guts are removed then boiled. After boiling is finished, ginseng, jujube and season vegetables are added “inside” the chicken. Then chicken is added to soup, and boiled again. SPICY ALERT : ☆☆☆☆☆ </mutableString>
+                                <string key="text">Ginseng Chicken, known as Samgyetang, is one of the most famous health food in Korea. First, chicken guts are removed then boiled. After boiling is finished, ginseng, jujube and season vegetables are added “inside” the chicken. Then chicken is added to soup, and boiled again.
+ 
+SPICY ALERT : ☆☆☆☆☆ </string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1928,13 +1939,13 @@
                         <outlet property="NumberCount" destination="6ub-7a-Hn2" id="b6C-Zv-3hh"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9jb-ob-bSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2963" y="451"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="b8h-mj-fQe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t9I-LV-VBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Xnk-6p-wke" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IEA-HU-71V"/>
@@ -2007,7 +2018,9 @@
                                     <constraint firstAttribute="width" constant="270" id="3v4-XY-LYx"/>
                                     <constraint firstAttribute="height" constant="150" id="zDR-Gz-Cm1"/>
                                 </constraints>
-                                <mutableString key="text">Soon-dae might be uncomfortable to see for foreigners. But, the taste is comfortable. This food’s main ingredients are pig’s intestine, cabbage, tofu and xuanzhi. Xuanzhi is a food made of pig’s blood. This soon-dae can be eaten with salt, soybean paste or hot pepper paste. SPICY ALERT : ☆☆☆☆☆</mutableString>
+                                <string key="text">Soon-dae might be uncomfortable to see for foreigners. But, the taste is comfortable. This food’s main ingredients are pig’s intestine, cabbage, tofu and xuanzhi. Xuanzhi is a food made of pig’s blood. This soon-dae can be eaten with salt, soybean paste or hot pepper paste.
+ 
+SPICY ALERT : ☆☆☆☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2035,13 +2048,13 @@
                         <outlet property="NumberCount" destination="VuT-6S-MWr" id="DRr-ir-ETX"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t9I-LV-VBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3593" y="450"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dek-xi-3dD">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lSL-P3-10I" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="nuO-K7-lAH" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YOD-3c-4gS"/>
@@ -2114,7 +2127,8 @@
                                     <constraint firstAttribute="height" constant="150" id="5DF-Mt-rWO"/>
                                     <constraint firstAttribute="width" constant="270" id="M1t-hA-Zfr"/>
                                 </constraints>
-                                <mutableString key="text">Stir-fried rice cake, known as Tobokki, is a spicy traditional Korean food. Main ingredients are; rice cake, egg, fish and red pepper paste. Rice cake, fish and red pepper paste are added and fried. After frying, one boiled egg is added on top of this food. SPICY ALERT : ★★★★☆</mutableString>
+                                <string key="text">Stir-fried rice cake, known as Tobokki, is a spicy traditional Korean food. Main ingredients are; rice cake, egg, fish and red pepper paste. Rice cake, fish and red pepper paste are added and fried. After frying, one boiled egg is added on top of this food. 
+SPICY ALERT : ★★★★☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2142,13 +2156,13 @@
                         <outlet property="NumberCount" destination="4ov-5D-Uqw" id="hph-gO-5O6"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lSL-P3-10I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2333" y="654"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bje-bi-qBQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LnX-Dm-09e" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ZBw-Dv-iDC" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fzY-u8-i5U"/>
@@ -2221,7 +2235,9 @@
                                     <constraint firstAttribute="height" constant="150" id="8YR-av-Brj"/>
                                     <constraint firstAttribute="width" constant="270" id="rhK-ds-MuO"/>
                                 </constraints>
-                                <mutableString key="text">Sautéed Vegetables with potato noodles, which is known as Japchae, is also a Korean traditional food. Main ingredients are; potato noodle, cucumber, carrot, beef, onion and shiitake mushroom. Soy sauce also added a little. These ingredients are added to pan, and fried all together.  SPICY ALERT : ☆☆☆☆☆</mutableString>
+                                <string key="text">Sautéed Vegetables with potato noodles, which is known as Japchae, is also a Korean traditional food. Main ingredients are; potato noodle, cucumber, carrot, beef, onion and shiitake mushroom. Soy sauce also added a little. These ingredients are added to pan, and fried all together. 
+ 
+SPICY ALERT : ☆☆☆☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2249,13 +2265,13 @@
                         <outlet property="NumberCount" destination="KyB-cz-GZf" id="Wx9-B0-2Yv"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LnX-Dm-09e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2963" y="654"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vbm-E7-soH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6gX-O0-iJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="XWT-a1-9kT" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g9O-ya-t13"/>
@@ -2328,7 +2344,9 @@
                                     <constraint firstAttribute="height" constant="150" id="6cn-15-LbY"/>
                                     <constraint firstAttribute="width" constant="270" id="sJN-L8-cVU"/>
                                 </constraints>
-                                <string key="text">Kimchi stew, known as kimchi jjigae, is a spicy korean stew. Main ingredients are; kimchi, tofu, hot pepper, spring onion and pork. All of ingredients are added to earthen pot and boiled together. Some of people will taste spicy.  SPICY ALERT : ★★★☆☆</string>
+                                <string key="text">Kimchi stew, known as kimchi jjigae, is a spicy korean stew. Main ingredients are; kimchi, tofu, hot pepper, spring onion and pork. All of ingredients are added to earthen pot and boiled together. Some of people will taste spicy. 
+ 
+SPICY ALERT : ★★★☆☆</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2356,6 +2374,7 @@
                         <outlet property="NumberCount" destination="NSG-QK-S7o" id="GvL-E1-CIp"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6gX-O0-iJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3594" y="663"/>
         </scene>
