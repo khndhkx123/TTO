@@ -66,6 +66,8 @@
 		C1E543A31EE21C4600EBBD6C /* 30.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543711EE21C3200EBBD6C /* 30.mp4 */; };
 		C1E543A41EE21C4600EBBD6C /* 개 주세요.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543721EE21C3200EBBD6C /* 개 주세요.mp4 */; };
 		C1E543A51EE21C4600EBBD6C /* 무이.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543731EE21C3200EBBD6C /* 무이.mp4 */; };
+		C1E543AB1EE2341000EBBD6C /* SoundPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E543AA1EE2341000EBBD6C /* SoundPlay.swift */; };
+		C1E543AD1EE2347600EBBD6C /* 열.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543AC1EE2347200EBBD6C /* 열.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +153,8 @@
 		C1E543711EE21C3200EBBD6C /* 30.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 30.mp4; sourceTree = "<group>"; };
 		C1E543721EE21C3200EBBD6C /* 개 주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "개 주세요.mp4"; sourceTree = "<group>"; };
 		C1E543731EE21C3200EBBD6C /* 무이.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "무이.mp4"; sourceTree = "<group>"; };
+		C1E543AA1EE2341000EBBD6C /* SoundPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlay.swift; sourceTree = "<group>"; };
+		C1E543AC1EE2347200EBBD6C /* 열.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "열.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +208,7 @@
 				138046BE1ED8162F00B97168 /* AppDelegate.swift */,
 				138046C01ED8162F00B97168 /* ViewController.swift */,
 				138046C21ED8162F00B97168 /* Main.storyboard */,
+				C1E543AA1EE2341000EBBD6C /* SoundPlay.swift */,
 				138046C51ED8162F00B97168 /* Assets.xcassets */,
 				138046C71ED8163000B97168 /* LaunchScreen.storyboard */,
 				138046CA1ED8163000B97168 /* Info.plist */,
@@ -236,6 +241,7 @@
 				C1E543421EE21C3200EBBD6C /* 냉면.m4a */,
 				C1E543431EE21C3200EBBD6C /* 된장찌개.m4a */,
 				C1E543441EE21C3200EBBD6C /* 돈까스.m4a */,
+				C1E543AC1EE2347200EBBD6C /* 열.m4a */,
 				C1E543451EE21C3200EBBD6C /* 떡.m4a */,
 				C1E543461EE21C3200EBBD6C /* 불고기.m4a */,
 				C1E543471EE21C3200EBBD6C /* 비빔.m4a */,
@@ -396,6 +402,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E543AD1EE2347600EBBD6C /* 열.m4a in Resources */,
 				C1E543741EE21C4600EBBD6C /* 냉면.m4a in Resources */,
 				C1E543751EE21C4600EBBD6C /* 된장찌개.m4a in Resources */,
 				C1E543761EE21C4600EBBD6C /* 돈까스.m4a in Resources */,
@@ -476,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				138046C11ED8162F00B97168 /* ViewController.swift in Sources */,
+				C1E543AB1EE2341000EBBD6C /* SoundPlay.swift in Sources */,
 				138046BF1ED8162F00B97168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
