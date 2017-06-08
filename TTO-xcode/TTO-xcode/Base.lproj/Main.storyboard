@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -1120,6 +1120,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play1:" destination="Nba-7h-3fp" eventType="touchUpInside" id="EIy-nT-nzh"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jvP-eg-qkX">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -1155,7 +1158,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jg-Xj-yOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2333" y="1350"/>
+            <point key="canvasLocation" x="2332.5" y="1350"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vCE-C7-3wN">
@@ -2546,6 +2549,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play2:" destination="X5F-se-Ew1" eventType="touchUpInside" id="HZ2-zM-6Js"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MQd-XM-ou3">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -2635,6 +2641,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play3:" destination="jBg-Yv-GWI" eventType="touchUpInside" id="UOE-P7-rSZ"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cFl-ed-5Ci">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -2724,6 +2733,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play4:" destination="wOA-p0-P9L" eventType="touchUpInside" id="bLx-XV-fMu"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xgI-Ab-A1m">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -2813,6 +2825,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play5:" destination="L1U-vk-03N" eventType="touchUpInside" id="Ud6-wY-rGn"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Squ-bz-HqB">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -2848,7 +2863,7 @@ SPICY ALERT : ★★★☆☆</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8LE-FD-yaZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2333" y="2001"/>
+            <point key="canvasLocation" x="2333" y="2076"/>
         </scene>
         <!--MAPS-->
         <scene sceneID="mdq-gq-PrH">
@@ -2902,6 +2917,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play6:" destination="cZb-Dn-bxg" eventType="touchUpInside" id="cnq-B7-thL"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OHs-9h-LEe">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -2937,7 +2955,7 @@ SPICY ALERT : ★★★☆☆</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="35o-nu-EKB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2964" y="2001"/>
+            <point key="canvasLocation" x="2963" y="2076"/>
         </scene>
         <!--MAPS-->
         <scene sceneID="J76-jX-cgi">
@@ -2991,6 +3009,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play7:" destination="nzm-N1-brS" eventType="touchUpInside" id="J7K-z5-c1b"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qAH-ue-1Xy">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -3080,6 +3101,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play8:" destination="nqj-Wa-m6F" eventType="touchUpInside" id="X4A-sr-uNP"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ePp-NL-cJ7">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -3169,6 +3193,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play9:" destination="nWH-Uz-g1I" eventType="touchUpInside" id="wKe-xZ-AMN"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8dY-eV-NB9">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>
@@ -3499,6 +3526,9 @@ High protein (350~400kcal per 100g)
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Play10:" destination="yfS-zF-5mu" eventType="touchUpInside" id="MOV-4j-Ygg"/>
+                                </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dCr-ap-Qrn">
                                 <rect key="frame" x="25" y="289" width="270" height="200"/>

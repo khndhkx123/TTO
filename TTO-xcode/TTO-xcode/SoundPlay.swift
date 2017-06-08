@@ -10,7 +10,9 @@
 import Foundation
 import AVFoundation
 
-var flag = 0
+var flag = 0 // 10과 열
+var delay = 0.0   // 대기시간을 계산한다.
+
 
 func delayWithSeconds(_ seconds: Double, completion: @escaping () -> ()) {
     DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
@@ -170,7 +172,12 @@ class PLAY{
                 }
             }
         }
-        delayWithSeconds(2.2) {
+        if(COUNT % 10 == 0){
+            delay = 1.7
+        }else{
+            delay = 2.2
+        }
+        delayWithSeconds(delay) {
             self.GIVE.play()
         }
         
