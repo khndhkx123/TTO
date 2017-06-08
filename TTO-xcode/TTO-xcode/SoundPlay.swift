@@ -56,43 +56,44 @@ class PLAY{
     
     func Play(COUNT : Int){
         flag = 0
-        
-        switch (COUNT / 10) {
-        case 0 :
-            flag = 1
-            break
-        case 1 :
-            ten.play()
-            break
-        case 2 :
-            ten2.play()
-            break
-        case 3 :
-            ten3.play()
-            break
-        case 4 :
-            ten4.play()
-            break
-        case 5 :
-            ten5.play()
-            break
-        case 6 :
-            ten6.play()
-            break
-        case 7 :
-            ten7.play()
-            break
-        case 8 :
-            ten8.play()
-            break
-        case 9 :
-            ten9.play()
-            break
-        default :
-            break
+        delayWithSeconds(1) {
+            switch (COUNT / 10) {
+            case 0 :
+                flag = 1
+                break
+            case 1 :
+                self.ten.play()
+                break
+            case 2 :
+                self.ten2.play()
+                break
+            case 3 :
+                self.ten3.play()
+                break
+            case 4 :
+                self.ten4.play()
+                break
+            case 5 :
+                self.ten5.play()
+                break
+            case 6 :
+                self.ten6.play()
+                break
+            case 7 :
+                self.ten7.play()
+                break
+            case 8 :
+                self.ten8.play()
+                break
+            case 9 :
+                self.ten9.play()
+                break
+            default :
+                break
+            }
         }
         
-        delayWithSeconds(1) {
+        delayWithSeconds(1.7) {
             
             if flag == 0 {
                 switch (COUNT % 10){
@@ -165,7 +166,7 @@ class PLAY{
                 }
             }
         }
-        delayWithSeconds(2) {
+        delayWithSeconds(2.2) {
             self.GIVE.play()
         }
         
