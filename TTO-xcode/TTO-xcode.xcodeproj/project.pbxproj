@@ -69,13 +69,6 @@
 		C1E543A51EE21C4600EBBD6C /* 무이.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543731EE21C3200EBBD6C /* 무이.mp4 */; };
 		C1E543AB1EE2341000EBBD6C /* SoundPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E543AA1EE2341000EBBD6C /* SoundPlay.swift */; };
 		C1E543AD1EE2347600EBBD6C /* 열.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543AC1EE2347200EBBD6C /* 열.m4a */; };
-		C1EB59801EEA2D4300776C6A /* 여기까지어떻게가요.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1EB59791EEA2D2D00776C6A /* 여기까지어떻게가요.mp4 */; };
-		C1EB59811EEA2D4300776C6A /* 이거얼마입니까.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1EB597A1EEA2D2D00776C6A /* 이거얼마입니까.mp4 */; };
-		C1EB59821EEA2D4300776C6A /* 제사진좀찍어주시겠습니까.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1EB597B1EEA2D2D00776C6A /* 제사진좀찍어주시겠습니까.mp4 */; };
-		C1EB59831EEA2D4300776C6A /* 계산서주세요.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1EB597C1EEA2D2D00776C6A /* 계산서주세요.mp4 */; };
-		C1EB59841EEA2D4300776C6A /* 편의점이어디있습니까.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1EB597D1EEA2D2D00776C6A /* 편의점이어디있습니까.mp4 */; };
-		C1EB59851EEA2D4300776C6A /* 택시정류소가어디있습니까.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1EB597E1EEA2D2D00776C6A /* 택시정류소가어디있습니까.mp4 */; };
-		C1EB59861EEA2D4300776C6A /* 인기있는음식추천해주세요.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1EB597F1EEA2D2D00776C6A /* 인기있는음식추천해주세요.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +91,13 @@
 /* Begin PBXFileReference section */
 		133739881EDFB2CE000B86D3 /* busstop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = busstop.m4a; sourceTree = "<group>"; };
 		133739891EDFB2CE000B86D3 /* bathroom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bathroom.m4a; sourceTree = "<group>"; };
+		135725BE1EE94EBA00614419 /* 이거얼마입니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이거얼마입니까.mp4"; sourceTree = "<group>"; };
+		135725BF1EE94EBA00614419 /* 제사진좀찍어주시겠습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "제사진좀찍어주시겠습니까.mp4"; sourceTree = "<group>"; };
+		135725C01EE94EBA00614419 /* 계산서주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "계산서주세요.mp4"; sourceTree = "<group>"; };
+		135725C11EE94EBA00614419 /* 편의점이어디있습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "편의점이어디있습니까.mp4"; sourceTree = "<group>"; };
+		135725C21EE94EBA00614419 /* 인기있는음식추천해주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "인기있는음식추천해주세요.mp4"; sourceTree = "<group>"; };
+		135725C31EE94EBA00614419 /* 택시정류소가어디있습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "택시정류소가어디있습니까.mp4"; sourceTree = "<group>"; };
+		135725C41EE94EBA00614419 /* 여기까지어떻게가요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "여기까지어떻게가요.mp4"; sourceTree = "<group>"; };
 		138046BB1ED8162F00B97168 /* TTO-xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTO-xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138046BE1ED8162F00B97168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		138046C01ED8162F00B97168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -164,13 +164,6 @@
 		C1E543731EE21C3200EBBD6C /* 무이.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "무이.mp4"; sourceTree = "<group>"; };
 		C1E543AA1EE2341000EBBD6C /* SoundPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlay.swift; sourceTree = "<group>"; };
 		C1E543AC1EE2347200EBBD6C /* 열.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "열.m4a"; sourceTree = "<group>"; };
-		C1EB59791EEA2D2D00776C6A /* 여기까지어떻게가요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "여기까지어떻게가요.mp4"; sourceTree = "<group>"; };
-		C1EB597A1EEA2D2D00776C6A /* 이거얼마입니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이거얼마입니까.mp4"; sourceTree = "<group>"; };
-		C1EB597B1EEA2D2D00776C6A /* 제사진좀찍어주시겠습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "제사진좀찍어주시겠습니까.mp4"; sourceTree = "<group>"; };
-		C1EB597C1EEA2D2D00776C6A /* 계산서주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "계산서주세요.mp4"; sourceTree = "<group>"; };
-		C1EB597D1EEA2D2D00776C6A /* 편의점이어디있습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "편의점이어디있습니까.mp4"; sourceTree = "<group>"; };
-		C1EB597E1EEA2D2D00776C6A /* 택시정류소가어디있습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "택시정류소가어디있습니까.mp4"; sourceTree = "<group>"; };
-		C1EB597F1EEA2D2D00776C6A /* 인기있는음식추천해주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "인기있는음식추천해주세요.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,13 +248,13 @@
 		C1E543411EE21B6F00EBBD6C /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				C1EB59791EEA2D2D00776C6A /* 여기까지어떻게가요.mp4 */,
-				C1EB597A1EEA2D2D00776C6A /* 이거얼마입니까.mp4 */,
-				C1EB597B1EEA2D2D00776C6A /* 제사진좀찍어주시겠습니까.mp4 */,
-				C1EB597C1EEA2D2D00776C6A /* 계산서주세요.mp4 */,
-				C1EB597D1EEA2D2D00776C6A /* 편의점이어디있습니까.mp4 */,
-				C1EB597E1EEA2D2D00776C6A /* 택시정류소가어디있습니까.mp4 */,
-				C1EB597F1EEA2D2D00776C6A /* 인기있는음식추천해주세요.mp4 */,
+				135725BE1EE94EBA00614419 /* 이거얼마입니까.mp4 */,
+				135725BF1EE94EBA00614419 /* 제사진좀찍어주시겠습니까.mp4 */,
+				135725C01EE94EBA00614419 /* 계산서주세요.mp4 */,
+				135725C11EE94EBA00614419 /* 편의점이어디있습니까.mp4 */,
+				135725C21EE94EBA00614419 /* 인기있는음식추천해주세요.mp4 */,
+				135725C31EE94EBA00614419 /* 택시정류소가어디있습니까.mp4 */,
+				135725C41EE94EBA00614419 /* 여기까지어떻게가요.mp4 */,
 				C1E543421EE21C3200EBBD6C /* 냉면.m4a */,
 				C1E543431EE21C3200EBBD6C /* 된장찌개.m4a */,
 				C1E543441EE21C3200EBBD6C /* 돈까스.m4a */,
@@ -426,13 +419,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1EB59801EEA2D4300776C6A /* 여기까지어떻게가요.mp4 in Resources */,
-				C1EB59811EEA2D4300776C6A /* 이거얼마입니까.mp4 in Resources */,
-				C1EB59821EEA2D4300776C6A /* 제사진좀찍어주시겠습니까.mp4 in Resources */,
-				C1EB59831EEA2D4300776C6A /* 계산서주세요.mp4 in Resources */,
-				C1EB59841EEA2D4300776C6A /* 편의점이어디있습니까.mp4 in Resources */,
-				C1EB59851EEA2D4300776C6A /* 택시정류소가어디있습니까.mp4 in Resources */,
-				C1EB59861EEA2D4300776C6A /* 인기있는음식추천해주세요.mp4 in Resources */,
 				C1E543AD1EE2347600EBBD6C /* 열.m4a in Resources */,
 				C1E543741EE21C4600EBBD6C /* 냉면.m4a in Resources */,
 				C1E543751EE21C4600EBBD6C /* 된장찌개.m4a in Resources */,
