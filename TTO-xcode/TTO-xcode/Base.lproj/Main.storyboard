@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -1292,6 +1292,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="NM_order:" destination="B1M-Pu-i0j" eventType="touchUpInside" id="kRl-vq-D73"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.naengmyun" highlightedImage="F.naengmyun" translatesAutoresizingMaskIntoConstraints="NO" id="hct-yu-wCV">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -1347,7 +1350,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7cj-9Y-CPv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2966" y="-82"/>
+            <point key="canvasLocation" x="2963" y="-283"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UeX-Gl-sWz">
@@ -1399,6 +1402,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="DGS_order:" destination="zZV-qm-FH2" eventType="touchUpInside" id="QKS-Zx-I2u"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.gatsu" highlightedImage="F.gatsu" translatesAutoresizingMaskIntoConstraints="NO" id="4G1-Cs-BYG">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -1506,6 +1512,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="BGG_orderr:" destination="Jrf-84-qGR" eventType="touchUpInside" id="lyQ-ro-9tv"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.bulgogi" highlightedImage="F.bulgogi" translatesAutoresizingMaskIntoConstraints="NO" id="9LJ-hK-lER">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -1562,7 +1571,7 @@ SPICY ALERT : ☆☆☆☆☆ </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lon-Gy-sqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2333" y="123"/>
+            <point key="canvasLocation" x="2333" y="13"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXx-zb-21l">
@@ -1614,6 +1623,9 @@ SPICY ALERT : ☆☆☆☆☆ </string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="KB_order:" destination="u67-uR-PRI" eventType="touchUpInside" id="ufU-c5-pzj"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.kimbab" highlightedImage="F.kimbab" translatesAutoresizingMaskIntoConstraints="NO" id="vQJ-qC-7ab">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -1723,6 +1735,9 @@ SPICY ALERT : ☆☆☆☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="DG_order:" destination="wdG-FM-JUJ" eventType="touchUpInside" id="n3k-67-lRu"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.dwenjang" highlightedImage="F.dwenjang" translatesAutoresizingMaskIntoConstraints="NO" id="xWB-G0-dTM">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -1832,6 +1847,9 @@ SPICY ALERT : ★★☆☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="GB_order:" destination="RSZ-mX-1AI" eventType="touchUpInside" id="Bhe-pS-JB7"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.kalbi" highlightedImage="F.kalbi" translatesAutoresizingMaskIntoConstraints="NO" id="82c-bk-TNd">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -1941,6 +1959,9 @@ SPICY ALERT : ☆☆☆☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SG_order:" destination="lG6-LT-wko" eventType="touchUpInside" id="BZ0-Ko-K44"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.samgye" highlightedImage="F.samgye" translatesAutoresizingMaskIntoConstraints="NO" id="sgo-EG-hXe">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -1994,6 +2015,7 @@ SPICY ALERT : ☆☆☆☆☆ </string>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="NumberCount" destination="6ub-7a-Hn2" id="b6C-Zv-3hh"/>
+                        <outlet property="SG_order" destination="ooJ-Bi-3gk" id="F35-Sm-Ftu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9jb-ob-bSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2050,6 +2072,9 @@ SPICY ALERT : ☆☆☆☆☆ </string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="SD_order:" destination="Xnk-6p-wke" eventType="touchUpInside" id="fxX-kF-R8n"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.soondae" highlightedImage="F.soondae" translatesAutoresizingMaskIntoConstraints="NO" id="Ijc-qB-jvh">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -2159,6 +2184,9 @@ SPICY ALERT : ☆☆☆☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="DBG_order:" destination="nuO-K7-lAH" eventType="touchUpInside" id="MfB-3j-Owq"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.tobokki" highlightedImage="F.tobokki" translatesAutoresizingMaskIntoConstraints="NO" id="9hw-HJ-EI3">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -2215,7 +2243,7 @@ SPICY ALERT : ★★★★☆</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lSL-P3-10I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2333" y="654"/>
+            <point key="canvasLocation" x="2333" y="777"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bje-bi-qBQ">
@@ -2267,6 +2295,9 @@ SPICY ALERT : ★★★★☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ZC_order:" destination="ZBw-Dv-iDC" eventType="touchUpInside" id="IRB-o7-lkl"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.japchae" highlightedImage="F.japchae" translatesAutoresizingMaskIntoConstraints="NO" id="BMl-r6-9hS">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -2376,6 +2407,9 @@ SPICY ALERT : ☆☆☆☆☆</string>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="KC_order:" destination="XWT-a1-9kT" eventType="touchUpInside" id="U6V-lf-fcH"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F.kimchijjigae" highlightedImage="F.kimchijjigae" translatesAutoresizingMaskIntoConstraints="NO" id="aj8-p0-2OQ">
                                 <rect key="frame" x="85" y="104" width="150" height="150"/>
@@ -3135,7 +3169,10 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="240" id="7B4-60-DFX"/>
                                     <constraint firstAttribute="width" constant="270" id="xtv-1e-Ia2"/>
                                 </constraints>
-                                <string key="text">Effects :1.Effective on prostate 2.Increase of stamina</string>
+                                <string key="text">Effects :
+1.Effective on prostate 
+2.Increase of stamina
+</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3193,7 +3230,11 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="240" id="2cC-fu-fER"/>
                                     <constraint firstAttribute="width" constant="270" id="tlv-aN-EN5"/>
                                 </constraints>
-                                <string key="text">Effects :1.Prevents colorectal cancer2.High protein (350~400kcal per 100g)3.Helps insomnia</string>
+                                <string key="text">Effects :
+1.Prevents colorectal cancer
+2.High protein (350~400kcal per 100g)
+3.Helps insomnia
+</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3251,7 +3292,10 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="240" id="M4l-uV-tTH"/>
                                     <constraint firstAttribute="width" constant="270" id="pmL-wc-m0w"/>
                                 </constraints>
-                                <string key="text">Effects :1.Stops vomiting and diarrhea2.Prevents diabetes and edema3.Fortifies waist, bones and legs</string>
+                                <string key="text">Effects :
+1.Stops vomiting and diarrhea
+2.Prevents diabetes and edema
+3.Fortifies waist, bones and legs</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3392,7 +3436,10 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="width" constant="270" id="eXd-Gu-Dph"/>
                                     <constraint firstAttribute="height" constant="240" id="fxc-Od-MbI"/>
                                 </constraints>
-                                <string key="text">Effects :1.Good for preventing obesity2.Good for skin care3.Fortifies liver’s antidote system</string>
+                                <string key="text">Effects :
+1.Good for preventing obesity
+2.Good for skin care
+3.Fortifies liver’s antidote system</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3450,7 +3497,9 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="240" id="9On-no-cqb"/>
                                     <constraint firstAttribute="width" constant="270" id="bCU-sB-y0R"/>
                                 </constraints>
-                                <string key="text">Effects :1.Restores exhaustion2.Increase appetite</string>
+                                <string key="text">Effects :
+1.Restores exhaustion
+2.Increase appetite</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3508,7 +3557,10 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="240" id="OeF-EE-fKI"/>
                                     <constraint firstAttribute="width" constant="270" id="TY0-hf-2wG"/>
                                 </constraints>
-                                <string key="text">Effects :1.Prevents Insomnia2.Pulls out Sodium3.Keeps healthy bone &amp; helpful to growth</string>
+                                <string key="text">Effects :
+1.Prevents Insomnia
+2.Pulls out Sodium
+3.Keeps healthy bone &amp; helpful to growth</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3566,7 +3618,10 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="240" id="kTG-3f-dX1"/>
                                     <constraint firstAttribute="width" constant="270" id="sW7-6N-2aA"/>
                                 </constraints>
-                                <string key="text">Effects :1.Pulls out cholesterol2.Prevents Alzheimer3.Helps curing atopic dermatitis</string>
+                                <string key="text">Effects :
+1.Pulls out cholesterol
+2.Prevents Alzheimer
+3.Helps curing atopic dermatitis</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

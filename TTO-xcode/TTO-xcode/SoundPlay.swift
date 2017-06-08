@@ -62,7 +62,11 @@ class PLAY{
                 flag = 1
                 break
             case 1 :
-                self.ten.play()
+                if( COUNT % 10 == 0 ){
+                    self.TEN.play()
+                }else{
+                    self.ten.play()
+                }
                 break
             case 2 :
                 self.ten2.play()
