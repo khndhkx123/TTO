@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -806,27 +806,46 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOP-Bd-dJ4">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fOP-Bd-dJ4">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="Gak-48-vuf"/>
                                     <constraint firstAttribute="width" constant="270" id="tIA-gB-y6w"/>
                                 </constraints>
-                                <string key="text">Effects :
-1.Low calories (10kcal per 100g)
-2.Helps intestinal regulation
-3.Prevents Cancer</string>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Times-Roman" family="Times" pointSize="13.333"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content"> Effects :
+ </string>
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Low calories (10kcal per 100g)
+ Helps intestinal regulation
+ Prevents Cancer</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.baechu" translatesAutoresizingMaskIntoConstraints="NO" id="9zK-uL-4Nh">
-                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="170" id="UgJ-ui-p5f"/>
+                                    <constraint firstAttribute="width" constant="220" id="UgJ-ui-p5f"/>
                                     <constraint firstAttribute="height" constant="170" id="eLi-1G-2hb"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1108,6 +1127,12 @@
                                     <constraint firstAttribute="width" constant="270" id="i2I-P9-IaE"/>
                                     <constraint firstAttribute="height" constant="200" id="mbH-WS-WG6"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2528,6 +2553,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="width" constant="270" id="O4F-tl-ij6"/>
                                     <constraint firstAttribute="height" constant="200" id="ff6-5A-bX2"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2611,6 +2642,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="200" id="Itf-6W-big"/>
                                     <constraint firstAttribute="width" constant="270" id="UbA-AS-3ew"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2694,6 +2731,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="width" constant="270" id="6Op-P7-gQP"/>
                                     <constraint firstAttribute="height" constant="200" id="QGc-T6-c66"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2777,6 +2820,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="200" id="565-Ch-Cby"/>
                                     <constraint firstAttribute="width" constant="270" id="W8N-pV-Y5c"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2860,6 +2909,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="width" constant="270" id="lWF-Q5-uSR"/>
                                     <constraint firstAttribute="height" constant="200" id="rkR-7G-jV6"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2943,6 +2998,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="width" constant="270" id="MAm-tb-Ynn"/>
                                     <constraint firstAttribute="height" constant="200" id="fCa-KU-odY"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3026,6 +3087,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="height" constant="200" id="Xj7-F5-ifa"/>
                                     <constraint firstAttribute="width" constant="270" id="gVy-F7-jpD"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3109,6 +3176,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="width" constant="270" id="Yb1-wa-sJh"/>
                                     <constraint firstAttribute="height" constant="200" id="vB3-Ej-oA7"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3146,11 +3219,17 @@ SPICY ALERT : ★★★☆☆</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.bokbunja" translatesAutoresizingMaskIntoConstraints="NO" id="AZW-WH-JlA">
-                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="170" id="dDS-JG-cjI"/>
+                                    <constraint firstAttribute="width" constant="220" id="dDS-JG-cjI"/>
                                     <constraint firstAttribute="height" constant="170" id="z33-ea-kZ2"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bokbunjaju" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kE0-Le-Y42">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
@@ -3162,18 +3241,30 @@ SPICY ALERT : ★★★☆☆</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="8DC-PG-765">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8DC-PG-765">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="7B4-60-DFX"/>
                                     <constraint firstAttribute="width" constant="270" id="xtv-1e-Ia2"/>
                                 </constraints>
-                                <string key="text">Effects :
-1.Effective on prostate 
-2.Increase of stamina
-</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment content=" Effects : ">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Effective on prostate 
+Increase of stamina</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3207,11 +3298,17 @@ SPICY ALERT : ★★★☆☆</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.dongtae" translatesAutoresizingMaskIntoConstraints="NO" id="fM8-cG-P7H">
-                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="170" id="H5K-nG-RVg"/>
+                                    <constraint firstAttribute="width" constant="220" id="H5K-nG-RVg"/>
                                     <constraint firstAttribute="height" constant="170" id="goN-3v-kYh"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dried Pollack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcL-9B-Rd1">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
@@ -3223,19 +3320,32 @@ SPICY ALERT : ★★★☆☆</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="vj6-fz-7Wj">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vj6-fz-7Wj">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="2cC-fu-fER"/>
                                     <constraint firstAttribute="width" constant="270" id="tlv-aN-EN5"/>
                                 </constraints>
-                                <string key="text">Effects :
-1.Prevents colorectal cancer
-2.High protein (350~400kcal per 100g)
-3.Helps insomnia
-</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content"> Effects :
+ </string>
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Prevents colorectal cancer 
+High protein (350~400kcal per 100g)
+ Helps insomnia</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3269,11 +3379,17 @@ SPICY ALERT : ★★★☆☆</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.hanwoo" translatesAutoresizingMaskIntoConstraints="NO" id="uzB-SX-Hwp">
-                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="U8p-1N-VsS"/>
-                                    <constraint firstAttribute="width" constant="170" id="lb1-R5-jKi"/>
+                                    <constraint firstAttribute="width" constant="220" id="lb1-R5-jKi"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Korean Beef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OR0-Ra-EsE">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
@@ -3285,18 +3401,32 @@ SPICY ALERT : ★★★☆☆</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="CXZ-1U-3m8">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXZ-1U-3m8">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="M4l-uV-tTH"/>
                                     <constraint firstAttribute="width" constant="270" id="pmL-wc-m0w"/>
                                 </constraints>
-                                <string key="text">Effects :
-1.Stops vomiting and diarrhea
-2.Prevents diabetes and edema
-3.Fortifies waist, bones and legs</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content"> Effects :
+ </string>
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Stops vomiting and diarrhea
+ Prevents diabetes and edema
+ Fortifies waist, bones and legs</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3376,6 +3506,12 @@ SPICY ALERT : ★★★☆☆</string>
                                     <constraint firstAttribute="width" constant="270" id="3Ac-ed-x26"/>
                                     <constraint firstAttribute="height" constant="200" id="hCV-a4-m6g"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3413,11 +3549,17 @@ SPICY ALERT : ★★★☆☆</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.memil" translatesAutoresizingMaskIntoConstraints="NO" id="R05-C2-dQd">
-                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="N02-Rq-Gfc"/>
-                                    <constraint firstAttribute="width" constant="170" id="PC4-BF-a5J"/>
+                                    <constraint firstAttribute="width" constant="220" id="PC4-BF-a5J"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buckwheat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sw-tk-6NE">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
@@ -3429,18 +3571,32 @@ SPICY ALERT : ★★★☆☆</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="EIU-MZ-IaG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EIU-MZ-IaG">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="270" id="eXd-Gu-Dph"/>
                                     <constraint firstAttribute="height" constant="240" id="fxc-Od-MbI"/>
                                 </constraints>
-                                <string key="text">Effects :
-1.Good for preventing obesity
-2.Good for skin care
-3.Fortifies liver’s antidote system</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content"> Effects :
+ </string>
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Good for preventing obesity
+ Good for skin care
+ Fortifies liver’s antidote system</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3474,11 +3630,17 @@ SPICY ALERT : ★★★☆☆</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.muroo" translatesAutoresizingMaskIntoConstraints="NO" id="iK7-by-uV6">
-                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="oSd-X5-RRs"/>
-                                    <constraint firstAttribute="width" constant="170" id="yRI-U4-mCo"/>
+                                    <constraint firstAttribute="width" constant="220" id="yRI-U4-mCo"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meoru Wine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMf-vZ-76t">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
@@ -3490,17 +3652,31 @@ SPICY ALERT : ★★★☆☆</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="soH-dO-gc6">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="soH-dO-gc6">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="9On-no-cqb"/>
                                     <constraint firstAttribute="width" constant="270" id="bCU-sB-y0R"/>
                                 </constraints>
-                                <string key="text">Effects :
-1.Restores exhaustion
-2.Increase appetite</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content"> Effects :
+ </string>
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Restores exhaustion
+ Increase appetite</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3534,11 +3710,17 @@ SPICY ALERT : ★★★☆☆</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.namul" translatesAutoresizingMaskIntoConstraints="NO" id="klz-7Q-5Wa">
-                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="DhZ-Dl-6mx"/>
-                                    <constraint firstAttribute="width" constant="170" id="ggx-r6-o2H"/>
+                                    <constraint firstAttribute="width" constant="220" id="ggx-r6-o2H"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seasoned Aster" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcE-at-EvP">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
@@ -3550,18 +3732,32 @@ SPICY ALERT : ★★★☆☆</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="b69-3o-9kU">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b69-3o-9kU">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="OeF-EE-fKI"/>
                                     <constraint firstAttribute="width" constant="270" id="TY0-hf-2wG"/>
                                 </constraints>
-                                <string key="text">Effects :
-1.Prevents Insomnia
-2.Pulls out Sodium
-3.Keeps healthy bone &amp; helpful to growth</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content"> Effects :
+ </string>
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Prevents Insomnia
+ Pulls out Sodium
+ Keeps healthy bone &amp; helpful to growth</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3595,11 +3791,17 @@ SPICY ALERT : ★★★☆☆</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.wooung" translatesAutoresizingMaskIntoConstraints="NO" id="kv6-Rh-sEG">
-                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="170" id="Bzh-gJ-NuU"/>
+                                    <constraint firstAttribute="width" constant="220" id="Bzh-gJ-NuU"/>
                                     <constraint firstAttribute="height" constant="170" id="nGa-mm-FXS"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Burdock Tea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7O7-gE-P7N">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
@@ -3611,18 +3813,32 @@ SPICY ALERT : ★★★☆☆</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="2En-3o-I47">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2En-3o-I47">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="kTG-3f-dX1"/>
                                     <constraint firstAttribute="width" constant="270" id="sW7-6N-2aA"/>
                                 </constraints>
-                                <string key="text">Effects :
-1.Pulls out cholesterol
-2.Prevents Alzheimer
-3.Helps curing atopic dermatitis</string>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content"> Effects :
+ </string>
+                                        <attributes>
+                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Pulls out cholesterol
+ Prevents Alzheimer
+ Helps curing atopic dermatitis</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
