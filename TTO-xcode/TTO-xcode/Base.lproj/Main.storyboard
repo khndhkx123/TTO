@@ -626,12 +626,16 @@
                                             <constraint firstAttribute="height" constant="125" id="EU9-c6-1yr"/>
                                             <constraint firstAttribute="width" constant="125" id="FDR-ce-1ni"/>
                                         </constraints>
+                                        <state key="normal" image="T.lee"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="yfS-zF-5mu" kind="show" id="EwO-2r-kJR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQP-7w-76D">
                                         <rect key="frame" x="26" y="537.5" width="125" height="125"/>
@@ -792,7 +796,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z16-gM-T2l">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salted Cabbage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z16-gM-T2l">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="G5f-cP-N6U"/>
@@ -802,47 +806,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fOP-Bd-dJ4">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOP-Bd-dJ4">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="Gak-48-vuf"/>
                                     <constraint firstAttribute="width" constant="270" id="tIA-gB-y6w"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Effects ">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-DQ
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Stops vomiting and diarrhea </string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Prevents diabetes and edema Fortifies waist, bones and legs</string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <string key="text">Effects :
+1.Low calories (10kcal per 100g)
+2.Helps intestinal regulation
+3.Prevents Cancer</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Times-Roman" family="Times" pointSize="13.333"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9zK-uL-4Nh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.baechu" translatesAutoresizingMaskIntoConstraints="NO" id="9zK-uL-4Nh">
                                 <rect key="frame" x="75" y="124" width="170" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="UgJ-ui-p5f"/>
@@ -882,13 +861,14 @@ DQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIh-tF-rNN">
                                 <rect key="frame" x="0.0" y="64" width="320" height="636"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbj-q5-2BL">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbj-q5-2BL">
                                         <rect key="frame" x="26" y="-42.5" width="125" height="125"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="125" id="39i-fu-Yr2"/>
                                             <constraint firstAttribute="width" constant="125" id="f5Z-Qe-aFH"/>
                                         </constraints>
+                                        <state key="normal" image="S.baechu"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
@@ -899,13 +879,14 @@ DQ
                                             <segue destination="P1V-DM-z4e" kind="show" id="ayX-ZN-3rs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7e-SD-eCm">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7e-SD-eCm">
                                         <rect key="frame" x="169" y="-42.5" width="125" height="125"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="125" id="lXs-uS-SG3"/>
                                             <constraint firstAttribute="width" constant="125" id="r38-Tq-CoI"/>
                                         </constraints>
+                                        <state key="normal" image="S.bokbunja"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
@@ -916,13 +897,14 @@ DQ
                                             <segue destination="ppI-eK-1yp" kind="show" id="2xN-hF-WBP"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vID-fl-dOJ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vID-fl-dOJ">
                                         <rect key="frame" x="169" y="102.5" width="125" height="125"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125" id="9o7-v0-oSZ"/>
                                             <constraint firstAttribute="height" constant="125" id="Wnm-e3-fZ5"/>
                                         </constraints>
+                                        <state key="normal" image="S.hanwoo"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
@@ -933,41 +915,50 @@ DQ
                                             <segue destination="shM-LU-zJa" kind="show" id="RQn-2i-Ba9"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqN-we-TFR">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqN-we-TFR">
                                         <rect key="frame" x="26" y="247.5" width="125" height="125"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125" id="qgz-32-gE7"/>
                                             <constraint firstAttribute="height" constant="125" id="qqF-3x-7Tn"/>
                                         </constraints>
+                                        <state key="normal" image="S.memil"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="80b-SQ-wpO" kind="show" id="pGx-3O-UEB"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASB-68-uuQ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASB-68-uuQ">
                                         <rect key="frame" x="169" y="247.5" width="125" height="125"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="125" id="SNA-UE-o9L"/>
                                             <constraint firstAttribute="width" constant="125" id="WjI-qB-uCO"/>
                                         </constraints>
+                                        <state key="normal" image="S.muroo"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="KK3-19-XY4" kind="show" id="KCW-pL-dWX"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGB-eC-HhQ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGB-eC-HhQ">
                                         <rect key="frame" x="26" y="102.5" width="125" height="125"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="125" id="kGF-tE-1tF"/>
                                             <constraint firstAttribute="width" constant="125" id="zKH-i1-g2T"/>
                                         </constraints>
+                                        <state key="normal" image="S.dongtae"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
@@ -978,33 +969,41 @@ DQ
                                             <segue destination="cLV-hc-DIS" kind="show" id="n8j-nk-YS9"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1p-cP-XEr">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1p-cP-XEr">
                                         <rect key="frame" x="169" y="392.5" width="125" height="125"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="125" id="QED-Wh-Zjp"/>
                                             <constraint firstAttribute="width" constant="125" id="fxg-Bk-Mv0"/>
                                         </constraints>
+                                        <state key="normal" image="S.wooung"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="lpw-CG-1mX" kind="show" id="TDc-7O-JLP"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jd1-ir-YXc">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jd1-ir-YXc">
                                         <rect key="frame" x="26" y="392.5" width="125" height="125"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125" id="Rmu-db-S57"/>
                                             <constraint firstAttribute="height" constant="125" id="wSO-eY-pop"/>
                                         </constraints>
+                                        <state key="normal" image="S.namul"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="k7c-ZW-uJE" kind="show" id="G4d-V0-mHb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -3112,14 +3111,14 @@ SPICY ALERT : ★★★☆☆</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AZW-WH-JlA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.bokbunja" translatesAutoresizingMaskIntoConstraints="NO" id="AZW-WH-JlA">
                                 <rect key="frame" x="75" y="124" width="170" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="dDS-JG-cjI"/>
                                     <constraint firstAttribute="height" constant="170" id="z33-ea-kZ2"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kE0-Le-Y42">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bokbunjaju" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kE0-Le-Y42">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="0mk-9y-eJW"/>
@@ -3129,44 +3128,15 @@ SPICY ALERT : ★★★☆☆</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8DC-PG-765">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="8DC-PG-765">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="7B4-60-DFX"/>
                                     <constraint firstAttribute="width" constant="270" id="xtv-1e-Ia2"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Effects ">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-DQ
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Stops vomiting and diarrhea </string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Prevents diabetes and edema Fortifies waist, bones and legs</string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <string key="text">Effects :1.Effective on prostate 2.Increase of stamina</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3199,14 +3169,14 @@ DQ
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fM8-cG-P7H">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.dongtae" translatesAutoresizingMaskIntoConstraints="NO" id="fM8-cG-P7H">
                                 <rect key="frame" x="75" y="124" width="170" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="H5K-nG-RVg"/>
                                     <constraint firstAttribute="height" constant="170" id="goN-3v-kYh"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcL-9B-Rd1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dried Pollack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcL-9B-Rd1">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="Jra-sp-Bm9"/>
@@ -3216,44 +3186,15 @@ DQ
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vj6-fz-7Wj">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="vj6-fz-7Wj">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="2cC-fu-fER"/>
                                     <constraint firstAttribute="width" constant="270" id="tlv-aN-EN5"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Effects ">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-DQ
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Stops vomiting and diarrhea </string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Prevents diabetes and edema Fortifies waist, bones and legs</string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <string key="text">Effects :1.Prevents colorectal cancer2.High protein (350~400kcal per 100g)3.Helps insomnia</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3286,14 +3227,14 @@ DQ
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uzB-SX-Hwp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.hanwoo" translatesAutoresizingMaskIntoConstraints="NO" id="uzB-SX-Hwp">
                                 <rect key="frame" x="75" y="124" width="170" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="U8p-1N-VsS"/>
                                     <constraint firstAttribute="width" constant="170" id="lb1-R5-jKi"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OR0-Ra-EsE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Korean Beef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OR0-Ra-EsE">
                                 <rect key="frame" x="35" y="84" width="250" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="2Hs-jV-QL1"/>
@@ -3303,44 +3244,15 @@ DQ
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXZ-1U-3m8">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="CXZ-1U-3m8">
                                 <rect key="frame" x="25" y="304" width="270" height="240"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="M4l-uV-tTH"/>
                                     <constraint firstAttribute="width" constant="270" id="pmL-wc-m0w"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Effects ">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-DQ
-</string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Stops vomiting and diarrhea </string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Prevents diabetes and edema Fortifies waist, bones and legs</string>
-                                        <attributes>
-                                            <font key="NSFont" size="20" name=".AppleSystemUIFont"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <string key="text">Effects :1.Stops vomiting and diarrhea2.Prevents diabetes and edema3.Fortifies waist, bones and legs</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -3361,6 +3273,321 @@ DQ
             </objects>
             <point key="canvasLocation" x="-236" y="1961"/>
         </scene>
+        <!--MAPS-->
+        <scene sceneID="hyz-Dz-iCf">
+            <objects>
+                <viewController id="yfS-zF-5mu" customClass="MAPS" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="It5-NK-UA8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kgx-3x-ENG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4SN-Bj-AFf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lee Hyo-Suk Literary House" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFV-M2-ERR">
+                                <rect key="frame" x="35" y="74" width="250" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="APv-v9-26F"/>
+                                    <constraint firstAttribute="width" constant="250" id="F8Z-Ou-c8L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="T.lee" translatesAutoresizingMaskIntoConstraints="NO" id="n9Z-eY-Kpv">
+                                <rect key="frame" x="25" y="129" width="270" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="D3D-CJ-w2h"/>
+                                    <constraint firstAttribute="height" constant="150" id="Msg-aC-dEQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwn-gw-ewn">
+                                <rect key="frame" x="120" y="509" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iya-qz-u3y"/>
+                                    <constraint firstAttribute="width" constant="80" id="tbR-W1-aCk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="READ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dCr-ap-Qrn">
+                                <rect key="frame" x="25" y="289" width="270" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="3Ac-ed-x26"/>
+                                    <constraint firstAttribute="height" constant="200" id="hCV-a4-m6g"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dCr-ap-Qrn" firstAttribute="top" secondItem="n9Z-eY-Kpv" secondAttribute="bottom" constant="10" id="DEj-xL-J5K"/>
+                            <constraint firstItem="ZFV-M2-ERR" firstAttribute="centerX" secondItem="4SN-Bj-AFf" secondAttribute="centerX" id="NDr-Gz-zN6"/>
+                            <constraint firstItem="ZFV-M2-ERR" firstAttribute="top" secondItem="It5-NK-UA8" secondAttribute="bottom" constant="10" id="RVQ-TE-nWh"/>
+                            <constraint firstItem="n9Z-eY-Kpv" firstAttribute="centerX" secondItem="4SN-Bj-AFf" secondAttribute="centerX" id="S01-GG-Mdm"/>
+                            <constraint firstItem="fwn-gw-ewn" firstAttribute="top" secondItem="dCr-ap-Qrn" secondAttribute="bottom" constant="20" id="fEu-lk-Fgv"/>
+                            <constraint firstItem="fwn-gw-ewn" firstAttribute="centerX" secondItem="4SN-Bj-AFf" secondAttribute="centerX" id="nwU-9S-bXd"/>
+                            <constraint firstItem="n9Z-eY-Kpv" firstAttribute="top" secondItem="ZFV-M2-ERR" secondAttribute="bottom" constant="5" id="q99-qY-sId"/>
+                            <constraint firstItem="dCr-ap-Qrn" firstAttribute="centerX" secondItem="4SN-Bj-AFf" secondAttribute="centerX" id="vWe-RJ-nZa"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="map" destination="dCr-ap-Qrn" id="ZTw-Db-Dle"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oql-VA-kDm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2963" y="2754"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lLn-VU-iMI">
+            <objects>
+                <viewController id="80b-SQ-wpO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JQ1-jM-vrG"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZeY-Na-tMU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="402-kb-GfV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.memil" translatesAutoresizingMaskIntoConstraints="NO" id="R05-C2-dQd">
+                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="N02-Rq-Gfc"/>
+                                    <constraint firstAttribute="width" constant="170" id="PC4-BF-a5J"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buckwheat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sw-tk-6NE">
+                                <rect key="frame" x="35" y="84" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Reb-Aq-ze7"/>
+                                    <constraint firstAttribute="height" constant="30" id="lu4-RE-tRr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="EIU-MZ-IaG">
+                                <rect key="frame" x="25" y="304" width="270" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="eXd-Gu-Dph"/>
+                                    <constraint firstAttribute="height" constant="240" id="fxc-Od-MbI"/>
+                                </constraints>
+                                <string key="text">Effects :1.Good for preventing obesity2.Good for skin care3.Fortifies liver’s antidote system</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EIU-MZ-IaG" firstAttribute="centerX" secondItem="402-kb-GfV" secondAttribute="centerX" id="2UQ-pY-n6E"/>
+                            <constraint firstItem="R05-C2-dQd" firstAttribute="top" secondItem="5Sw-tk-6NE" secondAttribute="bottom" constant="10" id="DWr-k3-Ug9"/>
+                            <constraint firstItem="5Sw-tk-6NE" firstAttribute="centerX" secondItem="402-kb-GfV" secondAttribute="centerX" id="KUL-8f-5np"/>
+                            <constraint firstItem="EIU-MZ-IaG" firstAttribute="top" secondItem="R05-C2-dQd" secondAttribute="bottom" constant="10" id="P08-0y-GOm"/>
+                            <constraint firstItem="R05-C2-dQd" firstAttribute="centerX" secondItem="402-kb-GfV" secondAttribute="centerX" id="dL3-rb-LVc"/>
+                            <constraint firstItem="5Sw-tk-6NE" firstAttribute="top" secondItem="JQ1-jM-vrG" secondAttribute="bottom" constant="20" id="taX-sW-Lhs"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7GD-ZY-qJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-971" y="2288"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cbT-2g-RrQ">
+            <objects>
+                <viewController id="KK3-19-XY4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hlZ-cF-55U"/>
+                        <viewControllerLayoutGuide type="bottom" id="dA5-s0-Zhh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HfK-Vv-EV1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.muroo" translatesAutoresizingMaskIntoConstraints="NO" id="iK7-by-uV6">
+                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="oSd-X5-RRs"/>
+                                    <constraint firstAttribute="width" constant="170" id="yRI-U4-mCo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meoru Wine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMf-vZ-76t">
+                                <rect key="frame" x="35" y="84" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Bgq-0u-9LU"/>
+                                    <constraint firstAttribute="width" constant="250" id="Eim-dV-60p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="soH-dO-gc6">
+                                <rect key="frame" x="25" y="304" width="270" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="9On-no-cqb"/>
+                                    <constraint firstAttribute="width" constant="270" id="bCU-sB-y0R"/>
+                                </constraints>
+                                <string key="text">Effects :1.Restores exhaustion2.Increase appetite</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iK7-by-uV6" firstAttribute="centerX" secondItem="HfK-Vv-EV1" secondAttribute="centerX" id="04P-Yy-7LC"/>
+                            <constraint firstItem="IMf-vZ-76t" firstAttribute="top" secondItem="hlZ-cF-55U" secondAttribute="bottom" constant="20" id="21c-aP-JTm"/>
+                            <constraint firstItem="iK7-by-uV6" firstAttribute="top" secondItem="IMf-vZ-76t" secondAttribute="bottom" constant="10" id="9uq-j4-XNF"/>
+                            <constraint firstItem="IMf-vZ-76t" firstAttribute="centerX" secondItem="HfK-Vv-EV1" secondAttribute="centerX" id="NpG-kQ-cHi"/>
+                            <constraint firstItem="soH-dO-gc6" firstAttribute="top" secondItem="iK7-by-uV6" secondAttribute="bottom" constant="10" id="ehr-DT-hvJ"/>
+                            <constraint firstItem="soH-dO-gc6" firstAttribute="centerX" secondItem="HfK-Vv-EV1" secondAttribute="centerX" id="j5p-hZ-eDt"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="80L-f2-sBT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236" y="2309"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="W0J-gS-Lid">
+            <objects>
+                <viewController id="k7c-ZW-uJE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5sh-tO-SUl"/>
+                        <viewControllerLayoutGuide type="bottom" id="2hP-HW-Jk9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0A0-AH-F4j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.namul" translatesAutoresizingMaskIntoConstraints="NO" id="klz-7Q-5Wa">
+                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="DhZ-Dl-6mx"/>
+                                    <constraint firstAttribute="width" constant="170" id="ggx-r6-o2H"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seasoned Aster" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcE-at-EvP">
+                                <rect key="frame" x="35" y="84" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="0ud-wF-YAv"/>
+                                    <constraint firstAttribute="height" constant="30" id="oHP-Wl-zYe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="b69-3o-9kU">
+                                <rect key="frame" x="25" y="304" width="270" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="OeF-EE-fKI"/>
+                                    <constraint firstAttribute="width" constant="270" id="TY0-hf-2wG"/>
+                                </constraints>
+                                <string key="text">Effects :1.Prevents Insomnia2.Pulls out Sodium3.Keeps healthy bone &amp; helpful to growth</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pcE-at-EvP" firstAttribute="centerX" secondItem="0A0-AH-F4j" secondAttribute="centerX" id="9lg-1U-pKk"/>
+                            <constraint firstItem="klz-7Q-5Wa" firstAttribute="top" secondItem="pcE-at-EvP" secondAttribute="bottom" constant="10" id="Cid-lE-tP7"/>
+                            <constraint firstItem="klz-7Q-5Wa" firstAttribute="centerX" secondItem="0A0-AH-F4j" secondAttribute="centerX" id="Luf-uE-8hc"/>
+                            <constraint firstItem="b69-3o-9kU" firstAttribute="centerX" secondItem="0A0-AH-F4j" secondAttribute="centerX" id="P8e-eo-fmJ"/>
+                            <constraint firstItem="pcE-at-EvP" firstAttribute="top" secondItem="5sh-tO-SUl" secondAttribute="bottom" constant="20" id="hdd-Px-wot"/>
+                            <constraint firstItem="b69-3o-9kU" firstAttribute="top" secondItem="klz-7Q-5Wa" secondAttribute="bottom" constant="10" id="vFP-zG-YUV"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pgh-Iw-9xt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-971" y="2754"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EUi-x3-Upp">
+            <objects>
+                <viewController id="lpw-CG-1mX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pLr-sq-eqi"/>
+                        <viewControllerLayoutGuide type="bottom" id="LQa-7a-OpS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QD5-N6-jFv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.wooung" translatesAutoresizingMaskIntoConstraints="NO" id="kv6-Rh-sEG">
+                                <rect key="frame" x="75" y="124" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="Bzh-gJ-NuU"/>
+                                    <constraint firstAttribute="height" constant="170" id="nGa-mm-FXS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Burdock Tea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7O7-gE-P7N">
+                                <rect key="frame" x="35" y="84" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="VVj-Ko-fsr"/>
+                                    <constraint firstAttribute="height" constant="30" id="leA-7Q-GOf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="2En-3o-I47">
+                                <rect key="frame" x="25" y="304" width="270" height="240"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="kTG-3f-dX1"/>
+                                    <constraint firstAttribute="width" constant="270" id="sW7-6N-2aA"/>
+                                </constraints>
+                                <string key="text">Effects :1.Pulls out cholesterol2.Prevents Alzheimer3.Helps curing atopic dermatitis</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kv6-Rh-sEG" firstAttribute="centerX" secondItem="QD5-N6-jFv" secondAttribute="centerX" id="B7I-Vp-GLS"/>
+                            <constraint firstItem="7O7-gE-P7N" firstAttribute="centerX" secondItem="QD5-N6-jFv" secondAttribute="centerX" id="RyK-xb-aME"/>
+                            <constraint firstItem="7O7-gE-P7N" firstAttribute="top" secondItem="pLr-sq-eqi" secondAttribute="bottom" constant="20" id="iML-FC-VFQ"/>
+                            <constraint firstItem="2En-3o-I47" firstAttribute="centerX" secondItem="QD5-N6-jFv" secondAttribute="centerX" id="jlz-WQ-H8t"/>
+                            <constraint firstItem="kv6-Rh-sEG" firstAttribute="top" secondItem="7O7-gE-P7N" secondAttribute="bottom" constant="10" id="vVV-OI-h7s"/>
+                            <constraint firstItem="2En-3o-I47" firstAttribute="top" secondItem="kv6-Rh-sEG" secondAttribute="bottom" constant="10" id="wbg-ol-LAX"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yzg-WU-VSb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236" y="2754"/>
+        </scene>
     </scenes>
     <resources>
         <image name="F.bibim" width="250" height="245"/>
@@ -3375,10 +3602,19 @@ DQ
         <image name="F.samgye" width="650" height="433"/>
         <image name="F.soondae" width="600" height="400"/>
         <image name="F.tobokki" width="260" height="260"/>
+        <image name="S.baechu" width="259" height="194"/>
+        <image name="S.bokbunja" width="2633" height="2792"/>
+        <image name="S.dongtae" width="810" height="536"/>
+        <image name="S.hanwoo" width="970" height="606"/>
+        <image name="S.memil" width="1200" height="803"/>
+        <image name="S.muroo" width="500" height="405"/>
+        <image name="S.namul" width="225" height="225"/>
+        <image name="S.wooung" width="450" height="302"/>
         <image name="T.cave" width="604" height="358"/>
         <image name="T.coffee" width="1280" height="720"/>
         <image name="T.freshfish" width="698" height="400"/>
         <image name="T.herb" width="694" height="448"/>
+        <image name="T.lee" width="945" height="628"/>
         <image name="T.mtodae" width="1268" height="689"/>
         <image name="T.mui" width="500" height="330"/>
         <image name="T.samyang" width="738" height="534"/>
