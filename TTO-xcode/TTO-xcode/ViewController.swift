@@ -31,6 +31,14 @@ class ViewController: UIViewController {
 
     let bathroom = AVPlayer(url: Bundle.main.url(forResource: "bathroom", withExtension: "m4a")!)
     let busstop = AVPlayer(url: Bundle.main.url(forResource: "busstop", withExtension: "m4a")!)
+    let recommend = AVPlayer(url: Bundle.main.url(forResource: "recommend", withExtension: "mp4")!)
+    let bill = AVPlayer(url: Bundle.main.url(forResource: "bill", withExtension: "mp4")!)
+    let taxi = AVPlayer(url: Bundle.main.url(forResource: "texi", withExtension: "mp4")!)
+    let store = AVPlayer(url: Bundle.main.url(forResource: "store", withExtension: "mp4")!)
+    let getthere = AVPlayer(url: Bundle.main.url(forResource: "getthere", withExtension: "mp4")!)
+    let howmuch = AVPlayer(url: Bundle.main.url(forResource: "howmuch", withExtension: "mp4")!)
+    let photo = AVPlayer(url: Bundle.main.url(forResource: "photo", withExtension: "mp4")!)
+    
     
     @IBAction func BathroomPlay(_ sender: Any) {
         bathroom.play()
@@ -38,7 +46,28 @@ class ViewController: UIViewController {
     @IBAction func BusstopPlay(_ sender: Any) {
         busstop.play()
     }
-
+    @IBAction func Recomend(_ sender: Any) {
+        recommend.play()
+    }
+    @IBAction func Bill(_ sender: Any) {
+        bill.play()
+    }
+    @IBAction func Taxi(_ sender: Any) {
+        taxi.play()
+    }
+    @IBAction func Store(_ sender: Any) {
+        store.play()
+    }
+    @IBAction func Getthere(_ sender: Any) {
+        getthere.play()
+    }
+    @IBAction func HH(_ sender: Any) {
+        howmuch.play()
+    }
+    @IBAction func GG(_ sender: Any) {
+        photo.play()
+    }
+    
     
 //************************************** 음식주문 *************************************************//
     

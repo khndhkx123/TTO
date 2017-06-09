@@ -78,6 +78,13 @@
 		C1E543A51EE21C4600EBBD6C /* 무이.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C1E543731EE21C3200EBBD6C /* 무이.mp4 */; };
 		C1E543AB1EE2341000EBBD6C /* SoundPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E543AA1EE2341000EBBD6C /* SoundPlay.swift */; };
 		C1E543AD1EE2347600EBBD6C /* 열.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1E543AC1EE2347200EBBD6C /* 열.m4a */; };
+		C1EB59871EEB61EE00776C6A /* howmuch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 135725BE1EE94EBA00614419 /* howmuch.mp4 */; };
+		C1EB59881EEB61EE00776C6A /* photo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 135725BF1EE94EBA00614419 /* photo.mp4 */; };
+		C1EB59891EEB61EE00776C6A /* bill.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 135725C01EE94EBA00614419 /* bill.mp4 */; };
+		C1EB598A1EEB61EE00776C6A /* store.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 135725C11EE94EBA00614419 /* store.mp4 */; };
+		C1EB598B1EEB61EE00776C6A /* recommend.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 135725C21EE94EBA00614419 /* recommend.mp4 */; };
+		C1EB598C1EEB61EE00776C6A /* texi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 135725C31EE94EBA00614419 /* texi.mp4 */; };
+		C1EB598D1EEB61EE00776C6A /* getthere.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 135725C41EE94EBA00614419 /* getthere.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,13 +116,13 @@
 		1348AB041EEA756300E07BF1 /* MAPS8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS8.swift; sourceTree = "<group>"; };
 		1348AB061EEA758500E07BF1 /* MAPS9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS9.swift; sourceTree = "<group>"; };
 		1348AB081EEA759500E07BF1 /* MAPS10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS10.swift; sourceTree = "<group>"; };
-		135725BE1EE94EBA00614419 /* 이거얼마입니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이거얼마입니까.mp4"; sourceTree = "<group>"; };
-		135725BF1EE94EBA00614419 /* 제사진좀찍어주시겠습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "제사진좀찍어주시겠습니까.mp4"; sourceTree = "<group>"; };
-		135725C01EE94EBA00614419 /* 계산서주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "계산서주세요.mp4"; sourceTree = "<group>"; };
-		135725C11EE94EBA00614419 /* 편의점이어디있습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "편의점이어디있습니까.mp4"; sourceTree = "<group>"; };
-		135725C21EE94EBA00614419 /* 인기있는음식추천해주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "인기있는음식추천해주세요.mp4"; sourceTree = "<group>"; };
-		135725C31EE94EBA00614419 /* 택시정류소가어디있습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "택시정류소가어디있습니까.mp4"; sourceTree = "<group>"; };
-		135725C41EE94EBA00614419 /* 여기까지어떻게가요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "여기까지어떻게가요.mp4"; sourceTree = "<group>"; };
+		135725BE1EE94EBA00614419 /* howmuch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = howmuch.mp4; sourceTree = "<group>"; };
+		135725BF1EE94EBA00614419 /* photo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = photo.mp4; sourceTree = "<group>"; };
+		135725C01EE94EBA00614419 /* bill.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bill.mp4; sourceTree = "<group>"; };
+		135725C11EE94EBA00614419 /* store.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = store.mp4; sourceTree = "<group>"; };
+		135725C21EE94EBA00614419 /* recommend.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = recommend.mp4; sourceTree = "<group>"; };
+		135725C31EE94EBA00614419 /* texi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = texi.mp4; sourceTree = "<group>"; };
+		135725C41EE94EBA00614419 /* getthere.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = getthere.mp4; sourceTree = "<group>"; };
 		138046BB1ED8162F00B97168 /* TTO-xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTO-xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138046BE1ED8162F00B97168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		138046C01ED8162F00B97168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -275,13 +282,13 @@
 		C1E543411EE21B6F00EBBD6C /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				135725BE1EE94EBA00614419 /* 이거얼마입니까.mp4 */,
-				135725BF1EE94EBA00614419 /* 제사진좀찍어주시겠습니까.mp4 */,
-				135725C01EE94EBA00614419 /* 계산서주세요.mp4 */,
-				135725C11EE94EBA00614419 /* 편의점이어디있습니까.mp4 */,
-				135725C21EE94EBA00614419 /* 인기있는음식추천해주세요.mp4 */,
-				135725C31EE94EBA00614419 /* 택시정류소가어디있습니까.mp4 */,
-				135725C41EE94EBA00614419 /* 여기까지어떻게가요.mp4 */,
+				135725BE1EE94EBA00614419 /* howmuch.mp4 */,
+				135725BF1EE94EBA00614419 /* photo.mp4 */,
+				135725C01EE94EBA00614419 /* bill.mp4 */,
+				135725C11EE94EBA00614419 /* store.mp4 */,
+				135725C21EE94EBA00614419 /* recommend.mp4 */,
+				135725C31EE94EBA00614419 /* texi.mp4 */,
+				135725C41EE94EBA00614419 /* getthere.mp4 */,
 				C1E543421EE21C3200EBBD6C /* 냉면.m4a */,
 				C1E543431EE21C3200EBBD6C /* 된장찌개.m4a */,
 				C1E543441EE21C3200EBBD6C /* 돈까스.m4a */,
@@ -446,6 +453,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1EB59871EEB61EE00776C6A /* howmuch.mp4 in Resources */,
+				C1EB59881EEB61EE00776C6A /* photo.mp4 in Resources */,
+				C1EB59891EEB61EE00776C6A /* bill.mp4 in Resources */,
+				C1EB598A1EEB61EE00776C6A /* store.mp4 in Resources */,
+				C1EB598B1EEB61EE00776C6A /* recommend.mp4 in Resources */,
+				C1EB598C1EEB61EE00776C6A /* texi.mp4 in Resources */,
+				C1EB598D1EEB61EE00776C6A /* getthere.mp4 in Resources */,
 				C1E543AD1EE2347600EBBD6C /* 열.m4a in Resources */,
 				C1E543741EE21C4600EBBD6C /* 냉면.m4a in Resources */,
 				C1E543751EE21C4600EBBD6C /* 된장찌개.m4a in Resources */,

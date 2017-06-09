@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XAn-aD-aVO">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -832,7 +832,7 @@
                                         </constraints>
                                         <state key="normal" title="🔉"/>
                                         <connections>
-                                            <action selector="BusstopPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="qji-GB-SJc"/>
+                                            <action selector="Bill:" destination="ywj-fb-OKf" eventType="touchUpInside" id="J6u-EP-N1p"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pun-46-FEG">
@@ -843,7 +843,7 @@
                                         </constraints>
                                         <state key="normal" title="🔉"/>
                                         <connections>
-                                            <action selector="BusstopPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="Y2l-bN-IQ6"/>
+                                            <action selector="Taxi:" destination="ywj-fb-OKf" eventType="touchUpInside" id="0eM-Ne-4O3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gB-Lp-Ekq">
@@ -855,6 +855,7 @@
                                         <state key="normal" title="🔉"/>
                                         <connections>
                                             <action selector="BusstopPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="CHb-LB-ba2"/>
+                                            <action selector="HH:" destination="ywj-fb-OKf" eventType="touchUpInside" id="hpF-n4-67V"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ceq-nx-0AU">
@@ -865,7 +866,7 @@
                                         </constraints>
                                         <state key="normal" title="🔉"/>
                                         <connections>
-                                            <action selector="BusstopPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="fR0-9W-DxA"/>
+                                            <action selector="Recomend:" destination="ywj-fb-OKf" eventType="touchUpInside" id="5W6-bn-APE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdx-uU-X8p">
@@ -876,7 +877,7 @@
                                         </constraints>
                                         <state key="normal" title="🔉"/>
                                         <connections>
-                                            <action selector="BusstopPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="WbU-69-93u"/>
+                                            <action selector="Store:" destination="ywj-fb-OKf" eventType="touchUpInside" id="alw-kS-7LJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjO-IV-lqH">
@@ -887,7 +888,7 @@
                                         </constraints>
                                         <state key="normal" title="🔉"/>
                                         <connections>
-                                            <action selector="BusstopPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="Ljz-zy-S97"/>
+                                            <action selector="Getthere:" destination="ywj-fb-OKf" eventType="touchUpInside" id="Kgd-Oz-k9j"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ec-pf-ghU">
@@ -898,7 +899,7 @@
                                         </constraints>
                                         <state key="normal" title="🔉"/>
                                         <connections>
-                                            <action selector="BusstopPlay:" destination="ywj-fb-OKf" eventType="touchUpInside" id="CeM-mE-LIs"/>
+                                            <action selector="GG:" destination="ywj-fb-OKf" eventType="touchUpInside" id="okQ-sO-g41"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2218,7 +2219,6 @@ SPICY ALERT : ☆☆☆☆☆ </string>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="NumberCount" destination="6ub-7a-Hn2" id="b6C-Zv-3hh"/>
-                        <outlet property="SG_order" destination="ooJ-Bi-3gk" id="F35-Sm-Ftu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9jb-ob-bSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
