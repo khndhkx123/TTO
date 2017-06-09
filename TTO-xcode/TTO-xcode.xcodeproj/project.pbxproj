@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		1337398A1EDFB2D3000B86D3 /* busstop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 133739881EDFB2CE000B86D3 /* busstop.m4a */; };
 		1337398B1EDFB2D3000B86D3 /* bathroom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 133739891EDFB2CE000B86D3 /* bathroom.m4a */; };
+		1348AAF91EEA74FD00E07BF1 /* MAPS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AAF81EEA74FD00E07BF1 /* MAPS2.swift */; };
+		1348AAFB1EEA751300E07BF1 /* MAPS3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AAFA1EEA751300E07BF1 /* MAPS3.swift */; };
+		1348AAFD1EEA752900E07BF1 /* MAPS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AAFC1EEA752900E07BF1 /* MAPS4.swift */; };
+		1348AAFF1EEA753700E07BF1 /* MAPS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AAFE1EEA753700E07BF1 /* MAPS5.swift */; };
+		1348AB011EEA754700E07BF1 /* MAPS6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AB001EEA754700E07BF1 /* MAPS6.swift */; };
+		1348AB031EEA755600E07BF1 /* MAPS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AB021EEA755600E07BF1 /* MAPS7.swift */; };
+		1348AB051EEA756300E07BF1 /* MAPS8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AB041EEA756300E07BF1 /* MAPS8.swift */; };
+		1348AB071EEA758500E07BF1 /* MAPS9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AB061EEA758500E07BF1 /* MAPS9.swift */; };
+		1348AB091EEA759500E07BF1 /* MAPS10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348AB081EEA759500E07BF1 /* MAPS10.swift */; };
 		138046BF1ED8162F00B97168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138046BE1ED8162F00B97168 /* AppDelegate.swift */; };
 		138046C11ED8162F00B97168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138046C01ED8162F00B97168 /* ViewController.swift */; };
 		138046C41ED8162F00B97168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138046C21ED8162F00B97168 /* Main.storyboard */; };
@@ -91,6 +100,15 @@
 /* Begin PBXFileReference section */
 		133739881EDFB2CE000B86D3 /* busstop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = busstop.m4a; sourceTree = "<group>"; };
 		133739891EDFB2CE000B86D3 /* bathroom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bathroom.m4a; sourceTree = "<group>"; };
+		1348AAF81EEA74FD00E07BF1 /* MAPS2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS2.swift; sourceTree = "<group>"; };
+		1348AAFA1EEA751300E07BF1 /* MAPS3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS3.swift; sourceTree = "<group>"; };
+		1348AAFC1EEA752900E07BF1 /* MAPS4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS4.swift; sourceTree = "<group>"; };
+		1348AAFE1EEA753700E07BF1 /* MAPS5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS5.swift; sourceTree = "<group>"; };
+		1348AB001EEA754700E07BF1 /* MAPS6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS6.swift; sourceTree = "<group>"; };
+		1348AB021EEA755600E07BF1 /* MAPS7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS7.swift; sourceTree = "<group>"; };
+		1348AB041EEA756300E07BF1 /* MAPS8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS8.swift; sourceTree = "<group>"; };
+		1348AB061EEA758500E07BF1 /* MAPS9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS9.swift; sourceTree = "<group>"; };
+		1348AB081EEA759500E07BF1 /* MAPS10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPS10.swift; sourceTree = "<group>"; };
 		135725BE1EE94EBA00614419 /* 이거얼마입니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이거얼마입니까.mp4"; sourceTree = "<group>"; };
 		135725BF1EE94EBA00614419 /* 제사진좀찍어주시겠습니까.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "제사진좀찍어주시겠습니까.mp4"; sourceTree = "<group>"; };
 		135725C01EE94EBA00614419 /* 계산서주세요.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "계산서주세요.mp4"; sourceTree = "<group>"; };
@@ -217,8 +235,17 @@
 				138046BE1ED8162F00B97168 /* AppDelegate.swift */,
 				138046C01ED8162F00B97168 /* ViewController.swift */,
 				138046C21ED8162F00B97168 /* Main.storyboard */,
-				13F3DD211EE15FE400C02D9A /* MAPS.swift */,
 				C1E543AA1EE2341000EBBD6C /* SoundPlay.swift */,
+				13F3DD211EE15FE400C02D9A /* MAPS.swift */,
+				1348AAF81EEA74FD00E07BF1 /* MAPS2.swift */,
+				1348AAFA1EEA751300E07BF1 /* MAPS3.swift */,
+				1348AAFC1EEA752900E07BF1 /* MAPS4.swift */,
+				1348AAFE1EEA753700E07BF1 /* MAPS5.swift */,
+				1348AB001EEA754700E07BF1 /* MAPS6.swift */,
+				1348AB021EEA755600E07BF1 /* MAPS7.swift */,
+				1348AB041EEA756300E07BF1 /* MAPS8.swift */,
+				1348AB061EEA758500E07BF1 /* MAPS9.swift */,
+				1348AB081EEA759500E07BF1 /* MAPS10.swift */,
 				138046C51ED8162F00B97168 /* Assets.xcassets */,
 				138046C71ED8163000B97168 /* LaunchScreen.storyboard */,
 				138046CA1ED8163000B97168 /* Info.plist */,
@@ -499,9 +526,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1348AB071EEA758500E07BF1 /* MAPS9.swift in Sources */,
+				1348AAFB1EEA751300E07BF1 /* MAPS3.swift in Sources */,
+				1348AB051EEA756300E07BF1 /* MAPS8.swift in Sources */,
+				1348AAFD1EEA752900E07BF1 /* MAPS4.swift in Sources */,
 				138046C11ED8162F00B97168 /* ViewController.swift in Sources */,
+				1348AB011EEA754700E07BF1 /* MAPS6.swift in Sources */,
 				C1E543AB1EE2341000EBBD6C /* SoundPlay.swift in Sources */,
+				1348AAFF1EEA753700E07BF1 /* MAPS5.swift in Sources */,
+				1348AB031EEA755600E07BF1 /* MAPS7.swift in Sources */,
+				1348AAF91EEA74FD00E07BF1 /* MAPS2.swift in Sources */,
 				13F3DD221EE15FE400C02D9A /* MAPS.swift in Sources */,
+				1348AB091EEA759500E07BF1 /* MAPS10.swift in Sources */,
 				138046BF1ED8162F00B97168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

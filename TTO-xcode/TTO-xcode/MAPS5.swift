@@ -1,17 +1,10 @@
-//
-//  MAPS.swift
-//  TTO-xcode
-//
-//  Created by kkw on 2017. 6. 2..
-//  Copyright © 2017년 kkw. All rights reserved.
-
-// Baegnyong Cave
+//Moutain Odea
 
 import UIKit
 import MapKit
 import AVFoundation
 
-class MAPS: UIViewController {
+class MAPS5: UIViewController {
     
     
     
@@ -21,15 +14,15 @@ class MAPS: UIViewController {
         super.viewDidLoad()
         
         let span:MKCoordinateSpan = MKCoordinateSpanMake(0.1, 0.1)
-        let location:CLLocationCoordinate2D = CLLocationCoordinate2DMake(37.277771, 128.576995)
+        let location:CLLocationCoordinate2D = CLLocationCoordinate2DMake(37.798155, 128.543043)
         let region:MKCoordinateRegion = MKCoordinateRegionMake(location, span)
         map.setRegion(region, animated: true)
         
         let annotation = MKPointAnnotation()
         
         annotation.coordinate = location
-        annotation.title = "Cave"
-        annotation.subtitle = "Baengyong Cave"
+        annotation.title = "Moutain Odea"
+        annotation.subtitle = "Moutain Odea"
         map.addAnnotation(annotation)
         
     }
@@ -39,8 +32,8 @@ class MAPS: UIViewController {
     }
     
     
-//************************************** 음식주문 *************************************************//
-
+    //************************************** 음식주문 *************************************************//
+    
     let HB = AVPlayer(url: Bundle.main.url(forResource: "허브나라", withExtension: "mp4")!)
     let CF = AVPlayer(url: Bundle.main.url(forResource: "커피", withExtension: "mp4")!)
     let HS = AVPlayer(url: Bundle.main.url(forResource: "이효석", withExtension: "mp4")!)
