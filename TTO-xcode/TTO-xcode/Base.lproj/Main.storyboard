@@ -7,11 +7,10 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Menu-->
+        <!--T a b    T o    O r d e r-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TTO_xcode" customModuleProvider="target" sceneMemberID="viewController">
@@ -23,141 +22,114 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaE-gJ-9aT">
-                                <rect key="frame" x="169" y="214" width="125" height="125"/>
-                                <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="19s-T8-ggb"/>
-                                    <constraint firstAttribute="height" constant="125" id="cxb-KP-ETW"/>
-                                </constraints>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="TOUR">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="30" name="Baskerville-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="GK9-OL-2X2" kind="show" id="E4d-3o-Xi7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7GB-GO-aKg">
-                                <rect key="frame" x="26" y="357" width="125" height="125"/>
-                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="125" id="2au-Up-SJc"/>
-                                    <constraint firstAttribute="width" constant="125" id="HVZ-kF-s7w"/>
-                                </constraints>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="SPECIAL">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="25" name="Baskerville-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="D9K-xY-a7i" kind="show" id="S7f-SA-6HP"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4MC-CG-KZC">
-                                <rect key="frame" x="169" y="357" width="125" height="125"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="442" width="320" height="126"/>
+                                <color key="backgroundColor" red="0.72154435282900908" green="0.90682014747319484" blue="0.45123626669371564" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="Lz9-vj-C87"/>
-                                    <constraint firstAttribute="height" constant="125" id="tCk-HK-SYz"/>
+                                    <constraint firstAttribute="height" constant="126" id="6BR-Ss-roA"/>
+                                    <constraint firstAttribute="width" constant="320" id="zsN-4R-k1l"/>
                                 </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="TRANSLATION">
                                             <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="15" name="Baskerville-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="ywj-fb-OKf" kind="show" id="xXf-2v-ugJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iUb-sF-fCc">
-                                <rect key="frame" x="26" y="214" width="125" height="125"/>
-                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="J3S-xQ-OzT"/>
-                                    <constraint firstAttribute="height" constant="125" id="PtW-N0-yQt"/>
-                                </constraints>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="FOOD">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <font key="NSFont" size="30" name="Baskerville-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ywj-fb-OKf" kind="show" id="xXf-2v-ugJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaE-gJ-9aT">
+                                <rect key="frame" x="0.0" y="190" width="320" height="126"/>
+                                <color key="backgroundColor" red="1" green="0.51631778888062707" blue="0.65900748972364953" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="0uo-Go-KOh"/>
+                                    <constraint firstAttribute="width" constant="320" id="VnS-Z2-Ahf"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="TOUR">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="30" name="Baskerville-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="GK9-OL-2X2" kind="show" id="E4d-3o-Xi7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7GB-GO-aKg">
+                                <rect key="frame" x="0.0" y="316" width="320" height="126"/>
+                                <color key="backgroundColor" red="0.47539837538583751" green="0.96091746084257035" blue="0.96999920685279184" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="0TS-QF-Uge"/>
+                                    <constraint firstAttribute="height" constant="126" id="77p-ZU-bOO"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="SPECIAL">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="30" name="Baskerville-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="D9K-xY-a7i" kind="show" id="S7f-SA-6HP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iUb-sF-fCc">
+                                <rect key="frame" x="0.0" y="64" width="320" height="126"/>
+                                <color key="backgroundColor" red="1" green="0.76075384195485085" blue="0.44255415781060781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="D5d-oE-SOe"/>
+                                    <constraint firstAttribute="height" constant="126" id="Nlj-4h-zgW"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="FOOD">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="30" name="Baskerville-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <segue destination="jo2-gL-GO4" kind="show" id="Slw-Qd-HeW"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TTO Title" translatesAutoresizingMaskIntoConstraints="NO" id="7Ly-im-2Nm">
-                                <rect key="frame" x="35" y="119" width="250" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="8Bg-ba-rIs"/>
-                                    <constraint firstAttribute="width" constant="250" id="WAX-Es-AyF"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="iUb-sF-fCc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="9nW-oi-h0J"/>
-                            <constraint firstItem="iUb-sF-fCc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="E1h-0b-pB9"/>
-                            <constraint firstItem="kaE-gJ-9aT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="MDC-ec-W9W"/>
-                            <constraint firstItem="7GB-GO-aKg" firstAttribute="top" secondItem="iUb-sF-fCc" secondAttribute="bottom" constant="18" id="Neu-TT-JEh"/>
-                            <constraint firstItem="7GB-GO-aKg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Oeh-rO-YZP"/>
-                            <constraint firstItem="7Ly-im-2Nm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cBX-xk-Ioc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kaE-gJ-9aT" secondAttribute="trailing" constant="10" id="cOp-6g-Ram"/>
-                            <constraint firstItem="7Ly-im-2Nm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="dpd-LC-JY9"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="4MC-CG-KZC" secondAttribute="trailing" constant="10" id="iab-AU-Knm"/>
-                            <constraint firstItem="4MC-CG-KZC" firstAttribute="top" secondItem="kaE-gJ-9aT" secondAttribute="bottom" constant="18" id="zHx-eD-2wy"/>
+                            <constraint firstItem="iUb-sF-fCc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="4F7-kX-SdD"/>
+                            <constraint firstItem="iUb-sF-fCc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9aZ-0I-6g5"/>
+                            <constraint firstAttribute="trailing" secondItem="kaE-gJ-9aT" secondAttribute="trailing" id="DEb-5k-8lJ"/>
+                            <constraint firstAttribute="trailing" secondItem="iUb-sF-fCc" secondAttribute="trailing" id="IL4-ZX-JgB"/>
+                            <constraint firstItem="4MC-CG-KZC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KGL-EG-ULp"/>
+                            <constraint firstAttribute="trailing" secondItem="7GB-GO-aKg" secondAttribute="trailing" id="O7O-QM-m4g"/>
+                            <constraint firstItem="7GB-GO-aKg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VF2-Fy-1l0"/>
+                            <constraint firstItem="kaE-gJ-9aT" firstAttribute="top" secondItem="iUb-sF-fCc" secondAttribute="bottom" id="ecc-Hc-p2o"/>
+                            <constraint firstItem="7GB-GO-aKg" firstAttribute="top" secondItem="kaE-gJ-9aT" secondAttribute="bottom" id="luZ-FB-Ikn"/>
+                            <constraint firstItem="kaE-gJ-9aT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mRr-zR-CUL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4MC-CG-KZC" secondAttribute="bottom" id="mUx-6p-mDK"/>
+                            <constraint firstAttribute="trailing" secondItem="4MC-CG-KZC" secondAttribute="trailing" id="ma6-NB-JSP"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Main Menu" id="ZjE-yx-bm2"/>
+                    <navigationItem key="navigationItem" title="T a b    T o    O r d e r" id="ZjE-yx-bm2"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -1275,7 +1247,7 @@
                                             <constraint firstAttribute="width" constant="125" id="qgz-32-gE7"/>
                                             <constraint firstAttribute="height" constant="125" id="qqF-3x-7Tn"/>
                                         </constraints>
-                                        <state key="normal" image="S.memil"/>
+                                        <state key="normal" image="111"/>
                                         <connections>
                                             <segue destination="80b-SQ-wpO" kind="show" id="pGx-3O-UEB"/>
                                         </connections>
@@ -1321,7 +1293,7 @@
                                             <constraint firstAttribute="height" constant="125" id="kGF-tE-1tF"/>
                                             <constraint firstAttribute="width" constant="125" id="zKH-i1-g2T"/>
                                         </constraints>
-                                        <state key="normal" image="S.dongtae"/>
+                                        <state key="normal" image="333"/>
                                         <connections>
                                             <segue destination="cLV-hc-DIS" kind="show" id="n8j-nk-YS9"/>
                                         </connections>
@@ -1367,7 +1339,7 @@
                                             <constraint firstAttribute="width" constant="125" id="Rmu-db-S57"/>
                                             <constraint firstAttribute="height" constant="125" id="wSO-eY-pop"/>
                                         </constraints>
-                                        <state key="normal" image="S.namul"/>
+                                        <state key="normal" image="222"/>
                                         <connections>
                                             <segue destination="k7c-ZW-uJE" kind="show" id="G4d-V0-mHb"/>
                                         </connections>
@@ -3709,7 +3681,7 @@ Increase of stamina</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.dongtae" translatesAutoresizingMaskIntoConstraints="NO" id="fM8-cG-P7H">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="333" translatesAutoresizingMaskIntoConstraints="NO" id="fM8-cG-P7H">
                                 <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="H5K-nG-RVg"/>
@@ -3963,7 +3935,7 @@ High protein (350~400kcal per 100g)
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.memil" translatesAutoresizingMaskIntoConstraints="NO" id="R05-C2-dQd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="111" translatesAutoresizingMaskIntoConstraints="NO" id="R05-C2-dQd">
                                 <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="N02-Rq-Gfc"/>
@@ -4124,7 +4096,7 @@ High protein (350~400kcal per 100g)
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="S.namul" translatesAutoresizingMaskIntoConstraints="NO" id="klz-7Q-5Wa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="222" translatesAutoresizingMaskIntoConstraints="NO" id="klz-7Q-5Wa">
                                 <rect key="frame" x="50" y="124" width="220" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="170" id="DhZ-Dl-6mx"/>
@@ -4276,6 +4248,9 @@ High protein (350~400kcal per 100g)
         </scene>
     </scenes>
     <resources>
+        <image name="111" width="600" height="600"/>
+        <image name="222" width="600" height="600"/>
+        <image name="333" width="600" height="600"/>
         <image name="F.bibim" width="250" height="245"/>
         <image name="F.bulgogi" width="565" height="409"/>
         <image name="F.dwenjang" width="587" height="391"/>
@@ -4290,11 +4265,8 @@ High protein (350~400kcal per 100g)
         <image name="F.tobokki" width="260" height="260"/>
         <image name="S.baechu" width="259" height="194"/>
         <image name="S.bokbunja" width="2633" height="2792"/>
-        <image name="S.dongtae" width="810" height="536"/>
         <image name="S.hanwoo" width="970" height="606"/>
-        <image name="S.memil" width="1200" height="803"/>
         <image name="S.muroo" width="500" height="405"/>
-        <image name="S.namul" width="225" height="225"/>
         <image name="S.wooung" width="450" height="302"/>
         <image name="T.cave" width="604" height="358"/>
         <image name="T.coffee" width="1280" height="720"/>
@@ -4306,6 +4278,5 @@ High protein (350~400kcal per 100g)
         <image name="T.samyang" width="738" height="534"/>
         <image name="T.sheep" width="935" height="442"/>
         <image name="T.woljeong" width="700" height="400"/>
-        <image name="TTO Title" width="608" height="72"/>
     </resources>
 </document>
